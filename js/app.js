@@ -1,5 +1,5 @@
 angular.module('makeTracks', ['ui.router'])
-  .config(function($stateProvide, $urlRouterProvider){
+  .config(function($stateProvider, $urlRouterProvider){
 
     $stateProvider
                 .state('home',{
