@@ -4,7 +4,8 @@ angular.module('makeTracks', ['ui.router'])
     $stateProvider
                 .state('home',{
                     url:'/',
-                    templateUrl: "./views/home.html"
+                    templateUrl: "./views/home.html",
+                    controller: 'homeCtrl'
                 })
                 .state('story',{
                     url:'/story',
@@ -22,8 +23,7 @@ angular.module('makeTracks', ['ui.router'])
                 })
                 .state('contact',{
                     url:'/contact',
-                    templateUrl: './views/contact.html',
-                    controller: 'contactCtrl'
+                    templateUrl: './views/contact.html'
                 })
                 .state('join',{
                     url:'/join',

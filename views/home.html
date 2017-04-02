@@ -20,7 +20,7 @@
         <div class="item">
           <img src="img/hammockview.jpg" alt="adventurous girl in a hammock">
           <div class="carousel-caption">
-            <h3>Checkout our hammocks!</h3>
+            <h3>Our Hammocks Coming May 2017!</h3>
             <!-- <p>...</p> -->
           </div>
         </div>
@@ -44,8 +44,18 @@
       </a>
     </div>
   </div>
-  <div class=home-gallery-wrapper>
-    <div></div>
+  <div class='container'>
+    <div class='home-gallery-wrapper row' >
+      <div class='col-sm-12'>Featured Products Coming May 2017</div>
+      <div class='bestseller-gallery col-md-12'>
+        <div class='bestseller-card col-md-3' ng-repeat='bestseller in bestSellers'>
+          <div class='image-container'>
+            <img ng-src='{{bestseller.image}}' alt="{{bestseller.name}}">
+          </div>
+          <div>{{bestseller.name}}</div>
+        </div>
+      </div>
+    </div>
   </div>
 
 
