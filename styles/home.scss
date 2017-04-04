@@ -12,6 +12,7 @@ $taupe: rgb(239, 238, 226);
 $teko: 'Teko', sans-serif;
 $cRoboto: 'Roboto Condensed', sans-serif;
 $archivo: 'Archivo Narrow', sans-serif;
+$lighten: rgba(255,255,255,0.5);
 
 
 .home-banner {
@@ -54,5 +55,50 @@ $archivo: 'Archivo Narrow', sans-serif;
   a:hover{
     background-color: white;
     color: $kelly;
+  }
+}
+
+.home-gallery-wrapper{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  .featured{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: $lato;
+    margin-bottom: 70px;
+  }
+  .feature-gallery{
+    max-width: 100%;
+    .feature-card{
+      max-width: 29%;
+      margin-left: 2%;
+      margin-right: 2%;
+      padding: 0 0;
+      border: 1px solid $grey;
+      img{
+        width: 100%;
+        height: 450px;
+      }
+      img:hover{
+        background: $lighten;
+      }
+      .feature-name{
+        // border-top: 1px solid $grey;
+        text-align: center;
+        font-family: $lato;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        padding: 10px 0px;
+      }
+      .feature-name:hover{
+        background-color: $kelly;
+        color: white;
+      }
+    }
   }
 }

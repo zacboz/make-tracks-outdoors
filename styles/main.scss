@@ -50,7 +50,9 @@ $archivo: 'Archivo Narrow', sans-serif;
 .nav>li>a {
   margin-left: 15px;
   margin-right: 15px;
-  padding: 20px 0px;
+  padding: 0px 0px;
+  padding-top: 22px;
+  padding-bottom: 18px;
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
@@ -61,6 +63,7 @@ $archivo: 'Archivo Narrow', sans-serif;
 .dropdown-menu>li>a {
   background-color: $kelly;
   color: $grey;
+  font-family: $lato;
 }
 
 .dropdown-menu>li>a:hover {
