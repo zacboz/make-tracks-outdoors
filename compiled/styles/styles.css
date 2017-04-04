@@ -1,6 +1,36 @@
+.home-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/tothetop.jpg");
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  height: 100vh; }
+
+.home-banner-text {
+  padding-top: 30vh;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Teko", sans-serif; }
+  .home-banner-text h1 {
+    font-size: 100px;
+    color: white;
+    letter-spacing: 4px;
+    margin-bottom: 100px; }
+  .home-banner-text a {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 4px solid white;
+    padding: 10px 10px; }
+  .home-banner-text a:hover {
+    background-color: white;
+    color: #599001; }
 
 .navbar-default {
-  background-color: #374d28;
+  background-color: #599001;
   color: white;
   border: none; }
 
@@ -14,10 +44,10 @@
 
 .navbar-default .navbar-nav > li > a {
   color: white;
-  font-family: "Lato", sans-serif;
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  padding-top: 20px; }
+  letter-spacing: 2.5px; }
 
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   color: white;
@@ -28,3 +58,23 @@
   margin-left: 15px;
   margin-right: 15px;
   padding: 20px 0px; }
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #599001;
+  color: white; }
+
+.dropdown-menu > li > a {
+  background-color: #599001;
+  color: #cccccc; }
+
+.dropdown-menu > li > a:hover {
+  color: white;
+  background-color: #599001; }
+
+.navbar-nav > li > .dropdown-menu {
+  margin-top: -1px; }
+
+.dropdown-menu {
+  background-color: #599001;
+  min-width: 135px;
+  padding: 10px 0; }
