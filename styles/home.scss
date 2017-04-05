@@ -53,8 +53,9 @@ $lighten: rgba(255,255,255,0.5);
     padding: 10px 10px;
   }
   a:hover{
-    background-color: white;
-    color: $kelly;
+    // border: 4px solid $kelly;
+    background-color: $kelly;
+    color: white;
   }
 }
 
@@ -102,9 +103,9 @@ $lighten: rgba(255,255,255,0.5);
         }
       }
       .feature-name:hover{
-        border: 1px solid $kelly;
-        background-color: $kelly;
-        color: white;
+        // border: 1px solid $kelly;
+        // background-color: $kelly;
+        color: $kelly;
       }
     }
   }
