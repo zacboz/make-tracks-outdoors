@@ -57,11 +57,13 @@
           font-weight: 500;
           margin-top: 10px; }
     .hammock-gallery-wrapper .hammock-gallery .hammock-card:hover {
-      box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.15); }
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1); }
       .hammock-gallery-wrapper .hammock-gallery .hammock-card:hover .hammock-name {
         border: 1px solid black;
         background-color: black;
         color: white; }
+      .hammock-gallery-wrapper .hammock-gallery .hammock-card:hover .hammock-price {
+        color: #599001; }
 
 .home-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/tothetop.jpg");
@@ -132,7 +134,13 @@
           font-size: 15px;
           font-weight: 500;
           margin-top: 10px; }
-      .home-gallery-wrapper .feature-gallery .feature-card .feature-name:hover {
+    .home-gallery-wrapper .feature-gallery .feature-card:hover {
+      box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.1); }
+      .home-gallery-wrapper .feature-gallery .feature-card:hover .feature-name {
+        border: 1px solid black;
+        background-color: black;
+        color: white; }
+      .home-gallery-wrapper .feature-gallery .feature-card:hover .feature-price {
         color: #599001; }
 
 .navbar-default {
@@ -227,9 +235,13 @@ footer {
     color: #599001; }
 
 .story-banner {
-  background-image: url();
-  background-size: cover;
-  background-position: center; }
+  margin-top: 60px;
+  background-image: url("/img/keiraontherock.jpg");
+  background-size: 90%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 70vh; }
 
 .story-content {
   margin-top: 100px;
@@ -243,4 +255,7 @@ footer {
     font-family: "Teko", sans-serif;
     margin-bottom: 30px;
     letter-spacing: 3px;
+    color: black; }
+  .story-content span {
+    font-weight: 600;
     color: black; }
