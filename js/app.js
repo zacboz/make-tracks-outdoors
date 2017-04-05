@@ -14,7 +14,7 @@ angular.module('makeTracks', ['ui.router'])
       .state('hammocks',{
           url:'/hammocks',
           templateUrl: './views/hammocks.html',
-          controller: 'hammocksCtrl'
+          controller: 'hammockCtrl'
       })
       .state('outpost',{
           url:'/outpost',

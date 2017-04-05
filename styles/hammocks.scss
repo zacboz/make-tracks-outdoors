@@ -1,0 +1,97 @@
+$roboto: 'Roboto', sans-serif;
+$lato: 'Lato', sans-serif;
+$oswald: 'Oswald', sans-serif;
+$cabin: 'Cabin', sans-serif;
+$quicksand: 'Quicksand', sans-serif;
+$play: 'Play', sans-serif;
+$kelly: rgb(89, 144, 1);
+$forest: rgb(55, 77, 40);
+$grey: rgb(204, 204, 204);
+$cream: rgb(240, 238, 226);
+$taupe: rgb(239, 238, 226);
+$teko: 'Teko', sans-serif;
+$cRoboto: 'Roboto Condensed', sans-serif;
+$archivo: 'Archivo Narrow', sans-serif;
+$lighten: rgba(255,255,255,0.5);
+
+.hammocks-banner{
+  margin-top: 60px;
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('/img/hammockview.jpg');
+  // background-image: url('/img/hammockview.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+  h1{
+    padding-top: 20vh;
+    font-family: $teko;
+    color: white;
+    letter-spacing: 11px;
+    font-size: 80px;
+    font-weight: 600;
+  }
+}
+
+
+.hammock-gallery-wrapper{
+  padding-top: 60px;
+  padding-bottom: 100px;
+  .featured{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: $lato;
+    margin-bottom: 60px;
+  }
+  .hammock-gallery{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    .hammock-card{
+      width: 31%;
+      margin-left: 1%;
+      margin-right: 1%;
+      padding: 0 0;
+      border: 1px solid $grey;
+      margin-bottom: 50px;
+      img{
+        width: 100%;
+        height: 450px;
+      }
+      img:hover{
+        background: $lighten;
+      }
+      .hammock-name{
+        border-top: 1px solid $grey;
+        text-align: center;
+        font-family: $lato;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        padding: 10px 0px;
+        .hammock-price{
+          color: $grey;
+          font-size: 11px;
+          font-weight: 500;
+          margin-top: 10px;
+        }
+      }
+      .hammock-name:hover{
+        border: 2px solid black;
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+
+.hammock-card:hover{
+  box-shadow: 3px 3px 1px rgba(0,0,0,0.15);
+  border: 1px solid black;
+}

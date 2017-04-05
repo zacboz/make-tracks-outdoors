@@ -1,4 +1,4 @@
-angular.module('makeTracks').service('mainSrvc', function(){
+angular.module('makeTracks').service('hammockSrvc', function(){
 
 
   this.bestSellers = [{
