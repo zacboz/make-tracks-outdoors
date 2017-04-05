@@ -62,6 +62,11 @@
         text-transform: uppercase;
         letter-spacing: 3px;
         padding: 10px 0px; }
+        .home-gallery-wrapper .feature-gallery .feature-card .feature-name .feature-price {
+          color: #cccccc;
+          font-size: 15px;
+          font-weight: 500;
+          margin-top: 10px; }
       .home-gallery-wrapper .feature-gallery .feature-card .feature-name:hover {
         border: 1px solid #599001;
         background-color: #599001;

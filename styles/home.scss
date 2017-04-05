@@ -94,6 +94,12 @@ $lighten: rgba(255,255,255,0.5);
         text-transform: uppercase;
         letter-spacing: 3px;
         padding: 10px 0px;
+        .feature-price{
+          color: $grey;
+          font-size: 15px;
+          font-weight: 500;
+          margin-top: 10px;
+        }
       }
       .feature-name:hover{
         border: 1px solid $kelly;

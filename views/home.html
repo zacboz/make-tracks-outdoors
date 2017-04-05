@@ -16,7 +16,9 @@
           <div class='image-container'>
             <img ng-src='{{bestseller.image}}' alt="{{bestseller.name}}">
           </div>
-          <div class='feature-name'>{{bestseller.name}}</div>
+          <div class='feature-name'>{{bestseller.name}}
+            <div class='feature-price'>${{bestseller.price}}</div>
+          </div>
         </div>
       </div>
     </div>
