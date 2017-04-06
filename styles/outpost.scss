@@ -1,0 +1,64 @@
+$roboto: 'Roboto', sans-serif;
+$lato: 'Lato', sans-serif;
+$oswald: 'Oswald', sans-serif;
+$cabin: 'Cabin', sans-serif;
+$quicksand: 'Quicksand', sans-serif;
+$play: 'Play', sans-serif;
+$kelly: rgb(89, 144, 1);
+$forest: rgb(55, 77, 40);
+$grey: rgb(204, 204, 204);
+$cream: rgb(240, 238, 226);
+$taupe: rgb(239, 238, 226);
+$teko: 'Teko', sans-serif;
+$cRoboto: 'Roboto Condensed', sans-serif;
+$archivo: 'Archivo Narrow', sans-serif;
+$lighten: rgba(255,255,255,0.5);
+
+.outpost-banner{
+  margin-top: 60px;
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('/img/angelslanding.jpg');
+  // background-image: url('/img/hammockview.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+  text-transform: uppercase;
+  p{
+    padding-top: 15vh;
+    font-family: $teko;
+    color: white;
+    letter-spacing: 8px;
+    font-size: 30px;
+  }
+  h1{
+    padding-top: 2vh;
+    font-family: $teko;
+    color: white;
+    letter-spacing: 13px;
+    font-size: 100px;
+    // font-weight: 600;
+  }
+}
+
+.nested-nav{
+  height: 40px;
+  background-color: $kelly;
+  font-family: $lato;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-align: center;
+  .nested-links{
+    display: flex;
+    justify-content: space-between;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+  }
+  a:hover, a:focus{
+    border-bottom: 1px solid white;
+    padding-bottom: 2px;
+  }
+}

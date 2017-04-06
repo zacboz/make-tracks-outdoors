@@ -18,8 +18,23 @@ angular.module('makeTracks', ['ui.router'])
       })
       .state('outpost',{
           url:'/outpost',
-          templateUrl: './views/outpost.html',
-          controller: 'outpostCtrl'
+          templateUrl: './views/outpost.html'
+      })
+      .state('outpost.faq',{
+          url:'/faq',
+          templateUrl: './views/faq.html',
+          controller: 'faqCtrl'
+      })
+      .state('outpost.refunds',{
+          // abstract: true,
+          // parent: 'outpost',
+          url:'/refunds',
+          templateUrl: './views/refunds.html'
+      })
+      .state('outpost.videos',{
+          // parent: 'outpost',
+          url:'/videos',
+          templateUrl: './views/outpost.videos.html',
       })
       .state('contact',{
           url:'/contact',
