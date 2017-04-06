@@ -62,3 +62,53 @@ $lighten: rgba(255,255,255,0.5);
     padding-bottom: 2px;
   }
 }
+
+.refund-wrapper{
+  margin-top: 80px;
+  padding-right: 15vw;
+  padding-left: 15vw;
+  text-align: center;
+  font-family: $lato;
+  letter-spacing: 1.2px;
+  font-size: 14px;
+  line-height: 3;
+  color: #868686;
+  h2{
+    font-family: $teko;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    color: black;
+  }
+  span{
+    color: black;
+    font-weight: 600;
+  }
+  .email-us>a{
+    color: black;
+    font-size: 30px;
+  }
+  .email-us>a:hover{
+    cursor: pointer;
+    color: $kelly;
+  }
+}
+
+.videos-wrapper{
+  margin-top: 80px;
+  padding-right: 15vw;
+  padding-left: 15vw;
+  text-align: center;
+  font-family: $lato;
+  letter-spacing: 1.2px;
+  font-size: 14px;
+  line-height: 3;
+  color: #868686;
+  h2{
+    font-family: $teko;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    color: black;
+  }
+}

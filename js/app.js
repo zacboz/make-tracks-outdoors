@@ -26,15 +26,12 @@ angular.module('makeTracks', ['ui.router'])
           controller: 'faqCtrl'
       })
       .state('outpost.refunds',{
-          // abstract: true,
-          // parent: 'outpost',
           url:'/refunds',
           templateUrl: './views/refunds.html'
       })
       .state('outpost.videos',{
-          // parent: 'outpost',
           url:'/videos',
-          templateUrl: './views/outpost.videos.html',
+          templateUrl: './views/videos.html'
       })
       .state('contact',{
           url:'/contact',

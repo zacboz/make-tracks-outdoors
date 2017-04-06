@@ -193,7 +193,7 @@
 
 .dropdown-menu {
   background-color: black;
-  min-width: 135px;
+  min-width: 130px;
   padding: 10px 0; }
 
 footer {
@@ -273,6 +273,49 @@ footer {
   .nested-nav a:hover, .nested-nav a:focus {
     border-bottom: 1px solid white;
     padding-bottom: 2px; }
+
+.refund-wrapper {
+  margin-top: 80px;
+  padding-right: 15vw;
+  padding-left: 15vw;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 14px;
+  line-height: 3;
+  color: #868686; }
+  .refund-wrapper h2 {
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    color: black; }
+  .refund-wrapper span {
+    color: black;
+    font-weight: 600; }
+  .refund-wrapper .email-us > a {
+    color: black;
+    font-size: 30px; }
+  .refund-wrapper .email-us > a:hover {
+    cursor: pointer;
+    color: #599001; }
+
+.videos-wrapper {
+  margin-top: 80px;
+  padding-right: 15vw;
+  padding-left: 15vw;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 14px;
+  line-height: 3;
+  color: #868686; }
+  .videos-wrapper h2 {
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    color: black; }
 
 .story-banner {
   margin-top: 60px;
