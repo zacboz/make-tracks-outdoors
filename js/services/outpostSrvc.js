@@ -11,7 +11,7 @@ angular.module('makeTracks').service('outpostSrvc', function(){
   },{
     question: 'How do I care for my Make Tracks hammock?',
     answer: 'Safety: In set up, insure that your straps are securely wrapped and the carabiners are closed. Ease into your hammock slowly to make sure it hangs securely.',
-    tip1: 'UV Damage: UV damage can make the hammock fade in color and weaken the fabric which leads to tearing. We recommend when the hammock is not inuse to store it in its sack somewhere dry and cool.'
+    tip1: 'UV Damage: UV damage can make the hammock fade in color and weaken the fabric which leads to tearing. We recommend when the hammock is not in use; pack it in its sack and store somewhere dry and cool.'
   }, {
     question: 'Does the hammock come with straps?',
     answer: 'Our hammock package comes with everything you need for a great hammock experience. We use end-straps instead of knoted rope to attach to our carabiners for their reliability and strength. The package also comes with tree-sleeves, which has pre-knoted rope and encased by a nylon material so protect the rope from fraying.'
@@ -19,23 +19,26 @@ angular.module('makeTracks').service('outpostSrvc', function(){
     question: 'Will I need straps to use the hammock?',
     answer: 'No, you not need any extra straps then what the hammock package comes with.'
   }, {
+    question: 'What is the maximum weight capacity of our hammocks?',
+    answer: '800 lbs!'
+  }, {
     question: 'What are the dimensions of your hammocks?',
     answer: 'Double Track hammock: 10 x 6.5 feet.'
   }, {
     question: 'How high do I need to hang the hammock?',
-    answer: 'We recommend around 2 feet or higher.'
+    answer: 'How high do I need to hang the hammock?'
   }, {
     question: 'For set up, what is the best length to have between ends of the hammock?',
     answer: 'The best set up is around 12 feet from end to end.'
   }, {
     question: 'What are the Make Tracks hammocks made of?',
-    answer: 'All our hammocks are made of porous, breathable nylon taffeta. This porous quality lends itself to a cool, comfortable experience.'
+    answer: 'All our hammocks are made of porous, breathable nylon taffeta. This porous quality lends itself to a cool and comfortable experience.'
   }, {
     question: 'Will my dogs or cats nails puncture the hammock?',
-    answer: 'It is very likely, we recommend caution.'
+    answer: 'It is definitely possible, be cautious!'
   }, {
     question: 'Are your hammocks waterproof?',
-    answer: 'Make Tracks hammocks are not waterproof, but are water resistant!'
+    answer: 'Make Tracks hammocks are water resistant not waterproof.'
   }]
 
   this.getFaqs = () => {

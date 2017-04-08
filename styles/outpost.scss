@@ -112,3 +112,39 @@ $lighten: rgba(255,255,255,0.5);
     color: black;
   }
 }
+
+.faq-wrapper{
+  margin-top: 80px;
+  padding-right: 10vw;
+  padding-left: 10vw;
+  text-align: center;
+
+  h2{
+    text-align: center;
+    font-family: $teko;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+    color: black;
+  }
+}
+
+.qa-wrapper{
+  font-family: $lato;
+  letter-spacing: 1.2px;
+  font-size: 16px;
+  color: #868686;
+  line-height: 3;
+}
+.question {
+  cursor: pointer;
+}
+.answer{
+  span{
+    font-weight: 900;
+    color: black;
+  }
+  color: $kelly;
+  line-height: 1.8;
+  font-size: 14px;
+  font-weight: 600;
+}
