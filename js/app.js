@@ -17,7 +17,7 @@ angular.module('makeTracks', ['ui.router'])
           controller: 'hammockCtrl'
       })
       .state('hammockDetails',{
-          url:'/hammockDetails',
+          url:'/hammockDetails/:id',
           templateUrl: './views/hammock-details.html',
           controller: 'hammockDetailsCtrl'
       })
