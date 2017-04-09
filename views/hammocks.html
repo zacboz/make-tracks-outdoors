@@ -8,7 +8,7 @@
     <div class='hammock-gallery-wrapper row' >
       <div class='col-sm-12 featured'>Double Track Hammocks - Big Enough for 2 (Coming May 2017)</div>
       <div class='hammock-gallery col-md-12'>
-        <div class='hammock-card' ng-repeat='hammock in hammocks'>
+        <div class='hammock-card' ng-repeat='hammock in hammocks' ui-sref='hammockDetails({id: hammock.id})'>
           <img ng-src='{{hammock.image}}' alt="{{hammock.name}}">
           <div class='hammock-name'>{{hammock.name}}
             <div class='hammock-price'>${{hammock.price}}</div>

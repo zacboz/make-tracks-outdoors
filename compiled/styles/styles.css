@@ -340,13 +340,13 @@ footer {
   cursor: pointer; }
 
 .answer {
-  color: #599001;
+  color: black;
   line-height: 1.8;
   font-size: 14px;
   font-weight: 600; }
   .answer span {
     font-weight: 900;
-    color: black; }
+    color: #599001; }
 
 .story-banner {
   margin-top: 60px;

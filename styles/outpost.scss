@@ -141,9 +141,9 @@ $lighten: rgba(255,255,255,0.5);
 .answer{
   span{
     font-weight: 900;
-    color: black;
+    color: $kelly;
   }
-  color: $kelly;
+  color: black;
   line-height: 1.8;
   font-size: 14px;
   font-weight: 600;
