@@ -6,58 +6,66 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         name: 'The Sunrise',
         color: 'Orange/Grey',
         image: "../img/hammocks/sunrise.jpg",
-        desc: 'Coming May 2017',
+        status: 'Coming May 2017',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
         price: 35.97
     }, {
         id: 2,
         name: 'The Geyser',
-        color: 'Blue/ Light Blue',
+        color: 'Light Blue/Blue',
         image: "../img/hammocks/bluehammock.jpg",
-        desc: 'Coming May 2017',
-        price: 35.97
-    },{
-        id: 3,
-        name: 'The Meadow',
-        color: 'Lime Green/ Light Blue/ White',
-        image: "../img/hammocks/meadowhammock.jpg",
-        desc: 'Coming May 2017',
-        price: 35.97
-    }]
-
-  this.hammocks = [{
-        id: 1,
-        name: 'The Sunrise',
-        color: 'Orange/Grey',
-        image: "../img/hammocks/sunrise.jpg",
-        desc: 'Coming May 2017',
-        price: 35.97
-    }, {
-        id: 2,
-        name: 'The Geyser',
-        color: 'Blue/ Light Blue',
-        image: "../img/hammocks/bluehammock.jpg",
-        desc: 'Coming May 2017',
-        price: 35.97
-    },{
-        id: 3,
-        name: 'The Woodland',
-        color: 'Forrest Green/Grey',
-        image: "../img/hammocks/greenhammock.jpg",
-        desc: 'Coming May 2017',
-        price: 35.97
-    },{
-        id: 4,
-        name: 'The Summit',
-        color: 'Charcoal/Maroon',
-        image: "../img/hammocks/summit.jpg",
-        desc: 'Coming May 2017',
+        status: 'Coming May 2017',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
         price: 35.97
     },{
         id: 5,
         name: 'The Meadow',
         color: 'Lime Green/ Light Blue/ White',
         image: "../img/hammocks/meadowhammock.jpg",
-        desc: 'Coming May 2017',
+        status: 'Coming May 2017',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
+        price: 35.97
+    }]
+
+  this.hammocks = [{
+        id: 1,
+        name: 'The Sunrise',
+        color: 'orange/ gray',
+        image: "../img/hammocks/sunrise.jpg",
+        status: 'Coming May 2017',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
+        price: 35.97
+    }, {
+        id: 2,
+        name: 'The Geyser',
+        color: 'Blue/ Light Blue',
+        image: "../img/hammocks/bluehammock.jpg",
+        status: 'Coming May 2017',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
+        price: 35.97
+    },{
+        id: 3,
+        name: 'The Woodland',
+        color: 'Forrest Green/Grey',
+        image: "../img/hammocks/greenhammock.jpg",
+        status: 'Coming May 2017',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
+        price: 35.97
+    },{
+        id: 4,
+        name: 'The Summit',
+        color: 'Charcoal/Maroon',
+        image: "../img/hammocks/summit.jpg",
+        status: 'Coming May 2017',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
+        price: 35.97
+    },{
+        id: 5,
+        name: 'The Meadow',
+        color: 'Lime Green/ Light Blue/ White',
+        image: "../img/hammocks/meadowhammock.jpg",
+        status: 'Coming May 2017',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
         price: 35.97
     }]
 

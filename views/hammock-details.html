@@ -1,17 +1,21 @@
-<section class='hammocks-details-wrapper'>
+<section class='hammock-details-wrapper'>
   <div class='container'>
     <div class='row'>
       <div class='product-picture col-sm-8'>
+        <img ng-src='{{hammock.image}}' alt="{{hammock.name}}">
       </div>
       <div class='hammock-details col-sm-4'>
-        <h2>Name<h2>
-        <h3>Color</h3>
-        <p>Description</p>
+        <h2>{{hammock.name}}<h2>
+        <h3>{{hammock.color}}</h3>
+        <p class='status'>{{hammock.status}}</p>
+        <p class='desc'>{{hammock.desc}}</p>
         <div class='extra-links'>
           <i class="fa fa-binoculars" aria-hidden="true"></i><span>SPECS</span>
           <i class="fa fa-play-circle-o" aria-hidden="true"></i><span>SETUP<span>
           <i class="fa fa-handshake-o" aria-hidden="true"></i><span>RETURNS</span>
         </div>
+        <p class='price'>${{hammock.price}}</p>
+        <a class='buy-btn' href=''><div>BUY NOW</div></a>
       </div>
     </div>
   </div>

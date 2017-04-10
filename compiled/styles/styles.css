@@ -1,3 +1,65 @@
+.hammock-details-wrapper {
+  margin-top: 60px; }
+
+.product-picture img {
+  width: 90%;
+  height: 92vh; }
+
+.hammock-details {
+  margin-top: 8%;
+  font-family: "Lato", sans-serif;
+  letter-spacing: 1.2px;
+  font-size: 14px;
+  color: #cccccc; }
+  .hammock-details h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: -10px; }
+  .hammock-details h3 {
+    margin-top: 0;
+    font-size: 20px;
+    font-family: "Roboto Condensed", sans-serif; }
+  .hammock-details .status {
+    margin-top: 40px;
+    color: #599001;
+    font-weight: 600; }
+  .hammock-details .desc {
+    margin: 30px 0;
+    line-height: 2;
+    font-size: 12px; }
+  .hammock-details .extra-links {
+    color: black; }
+    .hammock-details .extra-links i {
+      font-size: 15px; }
+    .hammock-details .extra-links .fa-binoculars {
+      font-size: 13px; }
+    .hammock-details .extra-links span {
+      margin-left: 5px;
+      margin-right: 10px; }
+  .hammock-details .price {
+    margin: 30px 0;
+    font-size: 22px;
+    color: black;
+    font-weight: 600; }
+  .hammock-details .buy-btn {
+    text-decoration: none;
+    text-align: center; }
+    .hammock-details .buy-btn div {
+      width: 100%;
+      padding: 15px 0px;
+      background-color: #599001;
+      color: white;
+      font-weight: 600;
+      font-size: 16px; }
+    .hammock-details .buy-btn div:hover {
+      background-color: #2cd892; }
+
+.specs-wrapper {
+  height: 500px;
+  background-color: black; }
+
 .hammocks-banner {
   margin-top: 60px;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/img/hammockview.jpg");
