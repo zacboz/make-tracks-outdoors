@@ -29,15 +29,17 @@
     margin: 30px 0;
     line-height: 2;
     font-size: 12px; }
-  .hammock-details .extra-links {
-    color: #1c1c1c; }
-    .hammock-details .extra-links i {
-      font-size: 15px; }
-    .hammock-details .extra-links .fa-binoculars {
-      font-size: 13px; }
-    .hammock-details .extra-links span {
-      margin-left: 5px;
-      margin-right: 10px; }
+  .hammock-details .extra-links a {
+    cursor: pointer;
+    color: #1c1c1c;
+    text-decoration: none; }
+  .hammock-details .extra-links i {
+    font-size: 15px; }
+  .hammock-details .extra-links .fa-binoculars {
+    font-size: 13px; }
+  .hammock-details .extra-links span {
+    margin-left: 5px;
+    margin-right: 20px; }
   .hammock-details .price {
     margin: 30px 0;
     font-size: 22px;
@@ -146,6 +148,13 @@
   margin-top: 15px; }
   .image-returns img {
     width: 100%; }
+
+.amazon-launch {
+  margin-top: 200px;
+  font-size: 30px;
+  font-family: "Teko", sans-serif;
+  letter-spacing: 10;
+  text-align: center; }
 
 .hammocks-banner {
   margin-top: 60px;
@@ -348,7 +357,7 @@
   padding: 10px 0; }
 
 footer {
-  padding-top: 120px;
+  padding-top: 70px;
   padding-bottom: 140px; }
 
 .social-footer {
@@ -384,6 +393,9 @@ footer {
     text-decoration: none; }
   .footer-nav a:hover {
     color: #599001; }
+
+.outpost-wrapper {
+  padding-bottom: 60px; }
 
 .outpost-banner {
   margin-top: 60px;
@@ -499,6 +511,9 @@ footer {
     font-weight: 900;
     color: #599001; }
 
+.story-wrapper {
+  padding-bottom: 50px; }
+
 .story-banner {
   margin-top: 60px;
   background-image: url("/img/keiraontherock.jpg");
@@ -509,7 +524,7 @@ footer {
   height: 70vh; }
 
 .story-content {
-  margin-top: 100px;
+  margin-top: 70px;
   text-align: center;
   font-family: "Lato", sans-serif;
   letter-spacing: 1.2px;

@@ -15,6 +15,10 @@ $archivo: 'Archivo Narrow', sans-serif;
 $lighten: rgba(255,255,255,0.5);
 $black: rgb(28, 28, 28);
 
+.outpost-wrapper{
+  padding-bottom: 60px;
+}
+
 .outpost-banner{
   margin-top: 60px;
   background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('/img/angelslanding.jpg');

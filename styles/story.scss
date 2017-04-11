@@ -16,7 +16,9 @@ $archivo: 'Archivo Narrow', sans-serif;
 $lighten: rgba(255,255,255,0.5);
 $black: rgb(28, 28, 28);
 
-
+.story-wrapper{
+  padding-bottom: 50px;
+}
 
 .story-banner{
   margin-top: 60px;
@@ -29,7 +31,7 @@ $black: rgb(28, 28, 28);
 }
 
 .story-content{
-  margin-top: 100px;
+  margin-top: 70px;
   text-align: center;
   font-family: $lato;
   letter-spacing: 1.2px;

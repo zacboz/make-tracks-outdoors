@@ -50,6 +50,10 @@ angular.module('makeTracks', ['ui.router'])
           url:'/videos',
           templateUrl: './views/videos.html'
       })
+      .state('comingsoon',{
+          url:'/comingsoon',
+          templateUrl: './views/comingsoon.html'
+      })
       .state('contact',{
           url:'/contact',
           templateUrl: './views/contact.html'
