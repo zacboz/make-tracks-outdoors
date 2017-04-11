@@ -14,6 +14,8 @@ $teko: 'Teko', sans-serif;
 $cRoboto: 'Roboto Condensed', sans-serif;
 $archivo: 'Archivo Narrow', sans-serif;
 $lighten: rgba(255,255,255,0.5);
+$black: rgb(28, 28, 28);
+
 
 
 .story-banner{
@@ -38,10 +40,13 @@ $lighten: rgba(255,255,255,0.5);
     font-family: $teko;
     margin-bottom: 30px;
     letter-spacing: 3px;
-    color: black;
+    color: $black;
+  }
+  p{
+    margin: 0 0 25px;
   }
   span{
     font-weight: 600;
-    color: black;
+    color: $black;
   }
 }

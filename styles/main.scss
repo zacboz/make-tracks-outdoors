@@ -14,10 +14,14 @@ $teko: 'Teko', sans-serif;
 $cRoboto: 'Roboto Condensed', sans-serif;
 $archivo: 'Archivo Narrow', sans-serif;
 $lighten: rgba(255,255,255,0.5);
+$blacker: rgb(25, 25, 25);
+$black: rgb(28, 28, 28);
+
+
 
 
 .navbar-default{
-  background-color: black;
+  background-color: $blacker;
   color: white;
   border: none;
 }
@@ -58,19 +62,19 @@ $lighten: rgba(255,255,255,0.5);
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-  background-color: black;
+  background-color: $blacker;
   color: white;
 }
 
 .dropdown-menu>li>a {
-  background-color: black;
+  background-color: $blacker;
   color: $grey;
   font-family: $lato;
 }
 
 .dropdown-menu>li>a:hover {
   color: white;
-  background-color: black;
+  background-color: $blacker;
 }
 
 .navbar-nav>li>.dropdown-menu {
@@ -78,7 +82,7 @@ $lighten: rgba(255,255,255,0.5);
 }
 
 .dropdown-menu {
-  background-color: black;
+  background-color: $blacker;
   min-width: 130px;
   padding: 10px 0;
 }
@@ -98,13 +102,13 @@ footer{
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: black;
+    color: $blacker;
     margin-bottom: 50px;
   }
   i{
     width: 20%;
     font-size: 25px;
-    color: black;
+    color: $blacker;
   }
   i:hover{
     color: $kelly;
@@ -123,7 +127,7 @@ footer{
   align-content: center;
   padding: 0 9%;
   a{
-    color: black;
+    color: $blacker;
     text-decoration: none;
   }
   a:hover{

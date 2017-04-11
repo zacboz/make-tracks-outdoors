@@ -14,7 +14,7 @@ $cRoboto: 'Roboto Condensed', sans-serif;
 $archivo: 'Archivo Narrow', sans-serif;
 $lighten: rgba(64,210,110,0.7);
 $buy-green: rgb(64, 210, 110);
-$black: rgb(20, 20, 20);
+$black: rgb(28, 28, 28);
 
 .hammock-details-wrapper{
   margin-top: 60px;
@@ -169,6 +169,14 @@ $black: rgb(20, 20, 20);
   }
 }
 
+.setup-content{
+  margin-top: 100px;
+  text-align: center;
+  font-family: $lato;
+  color: white;
+}
+
+
 .hammock-returns{
   font-family: $lato;
   text-align: center;
@@ -186,8 +194,12 @@ $black: rgb(20, 20, 20);
   .hammock-email-us{
     margin-top: 30px;
     i{
+      cursor: pointer;
       color: $kelly;
       font-size: 22px;
+    }
+    i:hover{
+      color: white;
     }
   }
 }

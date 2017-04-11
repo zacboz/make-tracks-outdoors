@@ -8,7 +8,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         image: "../img/hammocks/sunrise.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
-        price: 35.97
+        price: 34.99
     }, {
         id: 2,
         name: 'The Geyser',
@@ -16,7 +16,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         image: "../img/hammocks/bluehammock.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
-        price: 35.97
+        price: 34.99
     },{
         id: 5,
         name: 'The Meadow',
@@ -24,7 +24,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         image: "../img/hammocks/meadowhammock.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
-        price: 35.97
+        price: 34.99
     }]
 
   this.hammocks = [{
@@ -34,7 +34,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         image: "../img/hammocks/sunrise.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
-        price: 35.97
+        price: 34.99
     }, {
         id: 2,
         name: 'The Geyser',
@@ -42,7 +42,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         image: "../img/hammocks/bluehammock.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
-        price: 35.97
+        price: 34.99
     },{
         id: 3,
         name: 'The Woodland',
@@ -50,7 +50,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         image: "../img/hammocks/greenhammock.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
-        price: 35.97
+        price: 34.99
     },{
         id: 4,
         name: 'The Summit',
@@ -58,7 +58,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         image: "../img/hammocks/summit.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
-        price: 35.97
+        price: 34.99
     },{
         id: 5,
         name: 'The Meadow',
@@ -66,7 +66,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         image: "../img/hammocks/meadowhammock.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
-        price: 35.97
+        price: 34.99
     }]
 
     this.getBestSellers = () => {

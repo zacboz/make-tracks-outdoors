@@ -13,6 +13,7 @@ $teko: 'Teko', sans-serif;
 $cRoboto: 'Roboto Condensed', sans-serif;
 $archivo: 'Archivo Narrow', sans-serif;
 $lighten: rgba(255,255,255,0.5);
+$black: rgb(28, 28, 28);
 
 .outpost-banner{
   margin-top: 60px;
@@ -78,14 +79,14 @@ $lighten: rgba(255,255,255,0.5);
     text-transform: uppercase;
     margin-bottom: 30px;
     letter-spacing: 3px;
-    color: black;
+    color: $black;
   }
   span{
-    color: black;
+    color: $black;
     font-weight: 600;
   }
   .email-us>a{
-    color: black;
+    color: $black;
     font-size: 30px;
   }
   .email-us>a:hover{
@@ -109,7 +110,7 @@ $lighten: rgba(255,255,255,0.5);
     text-transform: uppercase;
     margin-bottom: 30px;
     letter-spacing: 3px;
-    color: black;
+    color: $black;
   }
 }
 
@@ -124,7 +125,7 @@ $lighten: rgba(255,255,255,0.5);
     font-family: $teko;
     margin-bottom: 30px;
     letter-spacing: 3px;
-    color: black;
+    color: $black;
   }
 }
 
@@ -143,7 +144,7 @@ $lighten: rgba(255,255,255,0.5);
     font-weight: 900;
     color: $kelly;
   }
-  color: black;
+  color: $black;
   line-height: 1.8;
   font-size: 14px;
   font-weight: 600;
