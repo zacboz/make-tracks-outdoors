@@ -181,6 +181,11 @@
       .hammock-gallery-wrapper .hammock-gallery .hammock-card:hover .hammock-price {
         color: #599001; }
 
+.setup-content {
+  margin-top: 100px;
+  text-align: center;
+  color: white; }
+
 .home-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/tothetop.jpg");
   background-size: cover;

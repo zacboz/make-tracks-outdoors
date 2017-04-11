@@ -7,7 +7,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         color: 'Orange/Grey',
         image: "../img/hammocks/sunrise.jpg",
         status: 'Coming May 2017',
-        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
         price: 35.97
     }, {
         id: 2,
@@ -15,7 +15,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         color: 'Light Blue/Blue',
         image: "../img/hammocks/bluehammock.jpg",
         status: 'Coming May 2017',
-        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
         price: 35.97
     },{
         id: 5,
@@ -23,7 +23,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         color: 'Lime Green/ Light Blue/ White',
         image: "../img/hammocks/meadowhammock.jpg",
         status: 'Coming May 2017',
-        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
         price: 35.97
     }]
 
@@ -33,7 +33,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         color: 'orange/gray',
         image: "../img/hammocks/sunrise.jpg",
         status: 'Coming May 2017',
-        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
         price: 35.97
     }, {
         id: 2,
@@ -41,7 +41,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         color: 'blue/light blue',
         image: "../img/hammocks/bluehammock.jpg",
         status: 'Coming May 2017',
-        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
         price: 35.97
     },{
         id: 3,
@@ -49,7 +49,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         color: 'green/gray',
         image: "../img/hammocks/greenhammock.jpg",
         status: 'Coming May 2017',
-        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
         price: 35.97
     },{
         id: 4,
@@ -57,7 +57,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         color: 'charcoal/maroon',
         image: "../img/hammocks/summit.jpg",
         status: 'Coming May 2017',
-        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
         price: 35.97
     },{
         id: 5,
@@ -65,7 +65,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         color: 'lime green/ light blue/ white',
         image: "../img/hammocks/meadowhammock.jpg",
         status: 'Coming May 2017',
-        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
+        desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
         price: 35.97
     }]
 
