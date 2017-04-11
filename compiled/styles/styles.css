@@ -75,6 +75,7 @@
     padding: 15px 20px; }
   .product-nested-views a:hover, .product-nested-views a:focus {
     background-color: black;
+    color: #599001;
     border-bottom: 1px solid black; }
 
 .in-bag-wrapper {
@@ -112,6 +113,30 @@
       float: left;
       padding-left: 20px;
       padding-top: 28px; }
+
+.hammock-returns {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 12px;
+  color: #868686; }
+  .hammock-returns h4 {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px; }
+  .hammock-returns p {
+    line-height: 2; }
+  .hammock-returns .hammock-email-us {
+    margin-top: 30px; }
+    .hammock-returns .hammock-email-us i {
+      color: #599001;
+      font-size: 22px; }
+
+.image-returns {
+  text-align: center;
+  margin-top: 15px; }
+  .image-returns img {
+    width: 100%; }
 
 .hammocks-banner {
   margin-top: 60px;
