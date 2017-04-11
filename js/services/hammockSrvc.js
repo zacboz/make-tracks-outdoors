@@ -30,7 +30,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
   this.hammocks = [{
         id: 1,
         name: 'The Sunrise',
-        color: 'orange/ gray',
+        color: 'orange/gray',
         image: "../img/hammocks/sunrise.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
@@ -38,7 +38,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
     }, {
         id: 2,
         name: 'The Geyser',
-        color: 'Blue/ Light Blue',
+        color: 'blue/light blue',
         image: "../img/hammocks/bluehammock.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
@@ -46,7 +46,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
     },{
         id: 3,
         name: 'The Woodland',
-        color: 'Forrest Green/Grey',
+        color: 'green/gray',
         image: "../img/hammocks/greenhammock.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
@@ -54,7 +54,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
     },{
         id: 4,
         name: 'The Summit',
-        color: 'Charcoal/Maroon',
+        color: 'charcoal/maroon',
         image: "../img/hammocks/summit.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',
@@ -62,7 +62,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
     },{
         id: 5,
         name: 'The Meadow',
-        color: 'Lime Green/ Light Blue/ White',
+        color: 'lime green/ light blue/ white',
         image: "../img/hammocks/meadowhammock.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes come with pretied knots!',

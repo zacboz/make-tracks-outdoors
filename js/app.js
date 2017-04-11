@@ -21,6 +21,18 @@ angular.module('makeTracks', ['ui.router'])
           templateUrl: './views/hammock-details.html',
           controller: 'hammockDetailsCtrl'
       })
+      .state('hammockDetails.specs',{
+          url:'/hammockSpecs/:id',
+          templateUrl: './views/hammockSpecs.html'
+      })
+      .state('hammockDetails.setup',{
+          url:'/hammockSetup',
+          templateUrl: './views/hammockSetup.html'
+      })
+      .state('hammockDetails.returns',{
+          url:'/hammockReturns',
+          templateUrl: './views/hammockReturns.html'
+      })
       .state('outpost',{
           url:'/outpost',
           templateUrl: './views/outpost.html'
