@@ -20,4 +20,6 @@ angular.module('makeTracks')
       }, 1000);
   });
 
+  $("html, body").animate({ scrollTop: 0 }, 200);
+
 })

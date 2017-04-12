@@ -9,7 +9,8 @@ angular.module('makeTracks', ['ui.router'])
       })
       .state('story',{
           url:'/story',
-          templateUrl: './views/story.html'
+          templateUrl: './views/story.html',
+          controller: 'storyCtrl'
       })
       .state('hammocks',{
           url:'/hammocks',
@@ -35,12 +36,12 @@ angular.module('makeTracks', ['ui.router'])
       })
       .state('outpost',{
           url:'/outpost',
-          templateUrl: './views/outpost.html'
+          templateUrl: './views/outpost.html',
+          controller: 'outpostCtrl'
       })
       .state('outpost.faq',{
           url:'/faq',
-          templateUrl: './views/faq.html',
-          controller: 'faqCtrl'
+          templateUrl: './views/faq.html'
       })
       .state('outpost.refunds',{
           url:'/refunds',
@@ -64,8 +65,15 @@ angular.module('makeTracks', ['ui.router'])
           controller: 'joinCtrl'
       });
 
-  $urlRouterProvider
-      .otherwise('/');
+    $urlRouterProvider
+        .otherwise('/');
+})
+//if you want every view to load at top use the code below ... this project has nested views so I don't!
 
-
-});
+// .run(function ($rootScope, $state, $stateParams, $anchorScroll) {
+//
+//     $rootScope.$on('$stateChangeStart', function () {
+//         $anchorScroll();
+//     });
+//
+// });

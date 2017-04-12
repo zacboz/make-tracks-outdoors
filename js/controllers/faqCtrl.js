@@ -1,10 +1,5 @@
-angular.module('makeTracks').controller('faqCtrl', ($scope, outpostSrvc, $stateParams) => {
+angular.module('makeTracks').controller('outpostCtrl', ($scope, outpostSrvc, $stateParams) => {
 
-  $scope.faqs = outpostSrvc.getFaqs();
-  console.log($scope.faqs);
-
-  // $('.question').on('click',function(){
-  //   $(this).next('.open').slideToggle();
-  // });
+  $("html, body").animate({ scrollTop: 0 }, 200);
 
 })//end of controller
