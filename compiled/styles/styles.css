@@ -368,7 +368,7 @@
 
 footer {
   padding-top: 70px;
-  padding-bottom: 140px; }
+  padding-bottom: 40px; }
 
 .social-footer {
   text-align: center;
@@ -403,6 +403,12 @@ footer {
     text-decoration: none; }
   .footer-nav a:hover {
     color: #599001; }
+
+.copyright {
+  text-align: left;
+  font-size: 12px;
+  font-family: "Roboto Condensed", sans-serif;
+  padding-top: 140px; }
 
 .outpost-wrapper {
   padding-bottom: 60px; }

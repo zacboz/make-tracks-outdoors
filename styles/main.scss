@@ -90,7 +90,7 @@ $black: rgb(28, 28, 28);
 footer{
   // background-color: $kelly;
   padding-top: 70px;
-  padding-bottom: 140px;
+  padding-bottom: 40px;
 }
 
 .social-footer{
@@ -133,4 +133,11 @@ footer{
   a:hover{
     color: $kelly;
   }
+}
+
+.copyright{
+  text-align: left;
+  font-size: 12px;
+  font-family: $cRoboto;
+  padding-top: 140px;
 }
