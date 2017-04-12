@@ -138,7 +138,7 @@ $black: rgb(28, 28, 28);
     color: $kelly;
   }
   p{
-    font-family: $cRoboto;
+    font-family: $archivo;
     padding-left: 10px;
   }
 }
@@ -195,14 +195,29 @@ $black: rgb(28, 28, 28);
   p{
     line-height: 2;
   }
-  .hammock-email-us{
-    margin-top: 30px;
-    i{
-      cursor: pointer;
-      color: $kelly;
-      font-size: 22px;
+  .hammock-email-icon{
+    a{
+      text-decoration: none;
+      font-size: 30px;
+      color: white;
     }
-    i:hover{
+    a:hover{
+        cursor: pointer;
+        color: $kelly;
+    }
+  }
+
+  .hammock-email{
+    margin-top: 20px;
+    a{
+      text-decoration: none;
+      font-size: 14px;
+      font-family: $archivo;
+      letter-spacing: 2px;
+      color: $kelly;
+    }
+    a:hover{
+      cursor: pointer;
       color: white;
     }
   }

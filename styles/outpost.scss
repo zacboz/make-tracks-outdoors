@@ -89,15 +89,37 @@ $black: rgb(28, 28, 28);
     color: $black;
     font-weight: 600;
   }
-  .email-us>a{
-    color: $black;
-    font-size: 30px;
+  .outpost-email-icon{
+    a{
+      text-decoration: none;
+      font-size: 30px;
+      color: $black;
+    }
+    a:hover{
+        cursor: pointer;
+        color: $kelly;
+    }
   }
-  .email-us>a:hover{
-    cursor: pointer;
-    color: $kelly;
+
+  .outpost-email{
+    margin-top: -20px;
+    a{
+      text-decoration: none;
+      font-size: 14px;
+      font-family: $archivo;
+      letter-spacing: 2px;
+      color: $kelly;
+    }
+    a:hover{
+      cursor: pointer;
+      color: $black;
+    }
   }
 }
+
+
+
+
 
 .videos-wrapper{
   margin-top: 80px;

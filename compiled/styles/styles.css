@@ -92,7 +92,7 @@
     font-size: 13px;
     color: #599001; }
   .in-bag-wrapper p {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Archivo Narrow", sans-serif;
     padding-left: 10px; }
 
 .totals h4 {
@@ -134,13 +134,23 @@
     margin-bottom: 30px; }
   .hammock-returns p {
     line-height: 2; }
-  .hammock-returns .hammock-email-us {
-    margin-top: 30px; }
-    .hammock-returns .hammock-email-us i {
+  .hammock-returns .hammock-email-icon a {
+    text-decoration: none;
+    font-size: 30px;
+    color: white; }
+  .hammock-returns .hammock-email-icon a:hover {
+    cursor: pointer;
+    color: #599001; }
+  .hammock-returns .hammock-email {
+    margin-top: 20px; }
+    .hammock-returns .hammock-email a {
+      text-decoration: none;
+      font-size: 14px;
+      font-family: "Archivo Narrow", sans-serif;
+      letter-spacing: 2px;
+      color: #599001; }
+    .hammock-returns .hammock-email a:hover {
       cursor: pointer;
-      color: #599001;
-      font-size: 22px; }
-    .hammock-returns .hammock-email-us i:hover {
       color: white; }
 
 .image-returns {
@@ -173,7 +183,7 @@
 
 .hammock-gallery-wrapper {
   padding-top: 60px;
-  padding-bottom: 100px; }
+  padding-bottom: 60px; }
   .hammock-gallery-wrapper .featured {
     text-align: center;
     color: black;
@@ -472,12 +482,24 @@ footer {
   .refund-wrapper span {
     color: #1c1c1c;
     font-weight: 600; }
-  .refund-wrapper .email-us > a {
-    color: #1c1c1c;
-    font-size: 30px; }
-  .refund-wrapper .email-us > a:hover {
+  .refund-wrapper .outpost-email-icon a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #1c1c1c; }
+  .refund-wrapper .outpost-email-icon a:hover {
     cursor: pointer;
     color: #599001; }
+  .refund-wrapper .outpost-email {
+    margin-top: -20px; }
+    .refund-wrapper .outpost-email a {
+      text-decoration: none;
+      font-size: 14px;
+      font-family: "Archivo Narrow", sans-serif;
+      letter-spacing: 2px;
+      color: #599001; }
+    .refund-wrapper .outpost-email a:hover {
+      cursor: pointer;
+      color: #1c1c1c; }
 
 .videos-wrapper {
   margin-top: 80px;
