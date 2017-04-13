@@ -13,7 +13,8 @@ $teko: 'Teko', sans-serif;
 $cRoboto: 'Roboto Condensed', sans-serif;
 $archivo: 'Archivo Narrow', sans-serif;
 $lighten: rgba(64,210,110,0.7);
-$buy-green: rgb(64, 210, 110);
+$action-hover: rgb(64, 210, 110);
+$action: rgb(60, 190, 90);
 $black: rgb(28, 28, 28);
 
 .hammock-details-wrapper{
@@ -86,13 +87,13 @@ $black: rgb(28, 28, 28);
       width: 100%;
       padding: 15px 0px;
       // border: 2px solid $black;
-      background-color: $buy-green;
+      background-color: $action;
       color: white;
       font-weight: 600;
       font-size: 16px;
     }
     div:hover{
-      background-color: $lighten;
+      background-color: $action-hover;
       color: white;
     }
   }

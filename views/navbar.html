@@ -28,9 +28,48 @@
             <li><a href="#">Separated link</a></li> -->
           </ul>
         </li>
-        <li><a href="#">the Trackers</a></li>
+        <!-- <li><a href="https://visitor.r20.constantcontact.com/d.jsp?llr=nqcmcd9ab&amp;p=oi&amp;m=1127532071437&amp;sit=4lkxbgmlb&amp;f=b92a315a-2b10-4317-965c-853eb0f99f09" target="_blank">the Trackers</a></li> -->
+        <li><a data-toggle='modal' data-target='#trackerModal'>Be a Tracker</a></li>
+
         <li><a ui-sref='contact'>Contact Us</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+
+<div class='row'>
+  <div class="modal fade" id="trackerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="ctct-embed-signup" style="line-height: 1.5; -webkit-font-smoothing: antialiased;">
+         <div style="color:#599001; background-color:#FFFFFF; border-radius:5px;">
+             <span id="success_message" style="display:none;">
+                 <div class='sign-up-thanks' style="text-align:center;">Thank you for signing up!</div>
+             </span>
+             <form data-id="embedded_signup:form" id='be-tracker-form' class="ctct-custom-form Form" name="embedded_signup" method="POST" action="https://visitor2.constantcontact.com/api/signup">
+                 <h2>Become a Tracker!</h2>
+                 <p style='text-align:center; margin-bottom:40px;'>Sign up to get special coupons, deals and updates delivered to your inbox.</p>
+                 <!-- The following code must be included to ensure your sign-up form works properly. -->
+                 <input data-id="ca:input" type="hidden" name="ca" value="17ca3987-6650-4ab2-aaad-1e55b95a786f">
+                 <input data-id="list:input" type="hidden" name="list" value="1208057187">
+                 <input data-id="source:input" type="hidden" name="source" value="EFD">
+                 <input data-id="required:input" type="hidden" name="required" value="list,email">
+                 <input data-id="url:input" type="hidden" name="url" value="">
+                 <p data-id="Email Address:p" ><label data-id="Email Address:label" data-name="email" class="ctct-form-required">Email Address</label> <input data-id="Email Address:input" type="text" name="email" value="" maxlength="80"></p>
+                 <button id='be-tracker-btn' type="submit" class="Button ctct-button Button--block Button-secondary" data-enabled="enabled">Sign Up</button>
+              <div><p style="text-align:center; font-size:10px;" class="ctct-form-footer">By submitting this form, you are granting: Make Tracks Outdoors, permission to email you. You may unsubscribe via the link found at the bottom of every email.  (See our <a href="http://www.constantcontact.com/legal/privacy-statement" target="_blank">Email Privacy Policy</a> for details.) Emails are serviced by Constant Contact.</p></div>
+             </form>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</div>
