@@ -1,0 +1,33 @@
+<section class='hammock-details-wrapper'>
+  <div class='container'>
+    <div class='row'>
+      <div class='product-picture col-sm-8'>
+        <img ng-src='{{hammock.image}}' alt="{{hammock.name}}">
+      </div>
+      <div class='hammock-details col-sm-4'>
+        <h2>{{hammock.name}}<h2>
+        <h3>{{hammock.color}}</h3>
+        <p class='status'>{{hammock.status}}</p>
+        <p class='desc'>{{hammock.desc}}</p>
+        <div class='extra-links'>
+          <a id='scroll-specs' ui-sref='hammockDetails.specs'><i class="fa fa-binoculars" aria-hidden="true"></i><span>SPECS</span></a>
+          <a id='scroll-setup' ui-sref='hammockDetails.setup'><i class="fa fa-play-circle-o" aria-hidden="true"></i><span>SET UP</span></a>
+          <a id='scroll-returns' ui-sref='hammockDetails.returns'><i class="fa fa-handshake-o" aria-hidden="true"></i><span>RETURNS</span></a>
+        </div>
+        <p class='price'>${{hammock.price}}</p>
+        <a class='buy-btn' ui-sref='comingsoon' target="_blank"><div>BUY NOW</div></a>
+      </div>
+    </div>
+  </div>
+  <div class='row' id='specs'>
+    <div class='specs-wrapper col-sm-12'>
+      <div class='container'>
+        <div class='product-nested-views col-sm-12'>
+          <a ui-sref='hammockDetails.specs'>SPECS</a>
+          <a ui-sref='hammockDetails.setup'>SETUP VIDEOS</a>
+          <a ui-sref='hammockDetails.returns'>RETURNS</a>
+        </div>
+      </div>
+    <div ui-view autoscroll='false'></div>
+  </div>
+</section>

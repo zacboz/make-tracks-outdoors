@@ -1,0 +1,241 @@
+$roboto: 'Roboto', sans-serif;
+$lato: 'Lato', sans-serif;
+$oswald: 'Oswald', sans-serif;
+$cabin: 'Cabin', sans-serif;
+$quicksand: 'Quicksand', sans-serif;
+$play: 'Play', sans-serif;
+$kelly: rgb(89, 144, 1);
+$forest: rgb(55, 77, 40);
+$grey: rgb(204, 204, 204);
+$cream: rgb(240, 238, 226);
+$taupe: rgb(239, 238, 226);
+$teko: 'Teko', sans-serif;
+$cRoboto: 'Roboto Condensed', sans-serif;
+$archivo: 'Archivo Narrow', sans-serif;
+$lighten: rgba(64,210,110,0.7);
+$action-hover: rgb(64, 210, 110);
+$action: rgb(60, 190, 90);
+$black: rgb(28, 28, 28);
+
+.hammock-details-wrapper{
+  margin-top: 60px;
+}
+
+.product-picture{
+  // margin: 40px 0px;
+  img{
+    width: 90%;
+    height: 92vh;
+  }
+}
+
+.hammock-details{
+  margin-top: 8%;
+  font-family: $lato;
+  letter-spacing: 1.2px;
+  font-size: 14px;
+  color: #868686;
+  h2{
+    font-family: $lato;
+    font-weight: 600;
+    color: $black;
+    text-transform: uppercase;
+    margin-bottom: -10px;
+  }
+  h3{
+    margin-top: 0;
+    font-size: 20px;
+    font-family: $cRoboto;
+  }
+  .status{
+    margin-top: 40px;
+    color: $black;
+    font-weight: 600;
+  }
+  .desc {
+    margin: 30px 0;
+    line-height: 2;
+    font-size: 12px;
+  }
+  .extra-links{
+    a{
+      cursor: pointer;
+      color: $black;
+      text-decoration: none;
+    }
+    i{
+      font-size: 15px;
+    }
+    .fa-binoculars{
+      font-size: 13px;
+    }
+    span{
+      margin-left: 5px;
+      margin-right: 20px;
+    }
+  }
+  .price {
+    margin: 30px 0;
+    font-size: 22px;
+    color: $black;
+    font-weight: 600;
+  }
+  .buy-btn {
+    text-decoration: none;
+    text-align: center;
+    div{
+      width: 100%;
+      padding: 15px 0px;
+      // border: 2px solid $black;
+      background-color: $action;
+      color: white;
+      font-weight: 600;
+      font-size: 16px;
+    }
+    div:hover{
+      background-color: $action-hover;
+      color: white;
+    }
+  }
+}
+
+.specs-wrapper {
+  height: 500px;
+  background-color: $black;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+.product-nested-views{
+  height: 50px;
+  padding: 15px 0px;
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: $lato;
+    letter-spacing: 1px;
+    padding: 15px 20px;
+  }
+  a:hover, a:focus{
+    background-color: black;
+    color: $kelly;
+    border-bottom: 1px solid black;
+  }
+}
+
+.in-bag-wrapper{
+  padding-top: 10px;
+  // color: $grey;
+  color: #868686;
+  font-size: 12px;
+  font-family: $lato;
+  h4{
+    font-size: 15px;
+    color: white;
+  }
+  h5{
+    font-size: 13px;
+    color: $kelly;
+  }
+  p{
+    font-family: $archivo;
+    padding-left: 10px;
+  }
+}
+.totals{
+  h4{
+    float: left;
+    padding-right: 20px;
+  }
+}
+
+.hammock-icon-wrapper{
+  // padding-top: 20px;
+  font-family: $lato;
+  h4{
+    font-size: 15px;
+    color: white;
+  }
+  .feature-wrapper{
+    // width: 95%;
+    clear: both;
+    img{
+      width: 14%;
+      float: left;
+    }
+    p{
+      color: white;
+      font-size: 12px;
+      float: left;
+      padding-left: 20px;
+      padding-top: 28px;
+    }
+  }
+}
+
+.setup-content{
+  margin-top: 100px;
+  text-align: center;
+  font-family: $lato;
+  color: white;
+}
+
+
+.hammock-returns{
+  font-family: $lato;
+  text-align: center;
+  margin-top: 80px;
+  font-size: 12px;
+  color: #868686;
+  h4{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+  p{
+    line-height: 2;
+  }
+  .hammock-email-icon{
+    a{
+      text-decoration: none;
+      font-size: 30px;
+      color: white;
+    }
+    a:hover{
+        cursor: pointer;
+        color: $kelly;
+    }
+  }
+
+  .hammock-email{
+    margin-top: 20px;
+    a{
+      text-decoration: none;
+      font-size: 14px;
+      font-family: $archivo;
+      letter-spacing: 2px;
+      color: $kelly;
+    }
+    a:hover{
+      cursor: pointer;
+      color: white;
+    }
+  }
+}
+
+.image-returns{
+  text-align: center;
+  margin-top: 15px;
+  img{
+    width: 100%;
+  }
+}
+
+.amazon-launch{
+  margin-top: 200px;
+  font-size: 30px;
+  font-family: $teko;
+  letter-spacing: 10;
+  text-align: center;
+}

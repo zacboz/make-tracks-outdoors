@@ -1,0 +1,31 @@
+<section class='home-wrapper'>
+  <div class='row'>
+    <div class='home-banner'>
+      <div class='home-banner-text'>
+        <h1>Get Out and Make Your Own Tracks!</h1>
+        <a ui-sref='hammocks'>SHOP OUR HAMMOCKS</a>
+      </div>
+    </div>
+  </div>
+
+  <div class='container'>
+    <div class='home-gallery-wrapper row' >
+      <div class='col-sm-12 featured'>Featured Products (Coming May 2017)</div>
+      <div class='feature-gallery col-md-12'>
+        <div class='feature-card col-md-4' ng-repeat='bestseller in bestSellers' ui-sref='hammockDetails.specs({id: bestseller.id})'>
+          <div class='image-container'>
+            <img ng-src='{{bestseller.image}}' alt="{{bestseller.name}}">
+          </div>
+          <div class='feature-name'>{{bestseller.name}}
+            <div class='feature-price'>${{bestseller.price}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</section>
