@@ -61,10 +61,12 @@ angular.module('makeTracks', ['ui.router'])
           controller: 'contactCtrl'
       });
 
-
     $urlRouterProvider
         .otherwise('/');
-})
+
+});//end of app.js
+
+
 //if you want every view to load at top use the code below ... this project has nested views so I don't!
 
 // .run(function ($rootScope, $state, $stateParams, $anchorScroll) {
