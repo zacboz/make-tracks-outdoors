@@ -7,10 +7,10 @@ import sourcemaps from 'gulp-sourcemaps'; //shows what file it originates rather
 import pkg from './package.json';
 
 const paths = {
-  scssSource: './styles/**/*.scss',
-  scssDest: './compiled/styles',
-  jsSource: ['./js/app.js', './js/**/*.js'],
-  jsDest: './compiled/js'
+  scssSource: './public/styles/**/*.scss',
+  scssDest: './public/compiled/styles',
+  jsSource: ['./public/js/app.js', './public/js/**/*.js'],
+  jsDest: './public/compiled/js'
 };
 
 gulp.task('styles', () => {

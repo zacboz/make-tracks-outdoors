@@ -3,7 +3,7 @@
 
 .contact-banner {
   margin-top: 60px;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/img/girlinyosimite.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/public/img/banners/girlinyosimite.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -228,7 +228,7 @@
 
 .hammocks-banner {
   margin-top: 60px;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/img/hammockview.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/public/img/banners/hammockview.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -296,7 +296,7 @@
         color: #599001; }
 
 .home-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/tothetop.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/public/img/banners/tothetop.jpg");
   background-size: cover;
   background-position: center;
   max-width: 100%;
@@ -523,7 +523,7 @@ footer {
 
 .outpost-banner {
   margin-top: 60px;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/img/angelslanding.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/public/img/banners/angelslanding.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -652,7 +652,7 @@ footer {
 
 .story-banner {
   margin-top: 60px;
-  background-image: url("/img/keiraontherock.jpg");
+  background-image: url("/public/img/banners/keiraontherock.jpg");
   background-size: 90%;
   background-position: bottom;
   background-repeat: no-repeat;
