@@ -22,6 +22,7 @@ $black: rgb(28, 28, 28);
 
 .story-banner{
   margin-top: 60px;
+  // background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('/img/banners/girlinyosimite.jpg');
   background-image: url('/img/banners/keiraontherock.jpg');
   background-size: 90%;
   background-position: bottom;
@@ -32,12 +33,12 @@ $black: rgb(28, 28, 28);
 
 .story-content{
   margin-top: 70px;
-  text-align: center;
   font-family: $lato;
   letter-spacing: 1.2px;
   font-size: 12px;
   line-height: 3;
   color: #868686;
+  text-align: center;
   h1{
     font-family: $teko;
     margin-bottom: 30px;

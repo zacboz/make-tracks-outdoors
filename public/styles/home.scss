@@ -14,6 +14,8 @@ $cRoboto: 'Roboto Condensed', sans-serif;
 $archivo: 'Archivo Narrow', sans-serif;
 $lighten: rgba(255,255,255,0.5);
 $black: rgb(28, 28, 28);
+$sky: rgb(22, 111, 166);
+$hoverkelly: rgb(118, 173, 29);
 
 
 
@@ -58,9 +60,8 @@ $black: rgb(28, 28, 28);
     color: white;
   }
   a:hover{
-    border: 4px solid white;
-    background-color: white;
-    color: $kelly;
+    border: 4px solid $hoverkelly;
+    background-color: $hoverkelly;
   }
 }
 

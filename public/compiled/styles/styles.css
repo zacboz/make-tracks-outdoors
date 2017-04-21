@@ -54,9 +54,6 @@
     font-family: "Archivo Narrow", sans-serif;
     letter-spacing: 2px;
     color: #599001; }
-  .contact-email a:hover {
-    cursor: pointer;
-    color: #1c1c1c; }
 
 .hammock-details-wrapper {
   margin-top: 60px; }
@@ -209,9 +206,6 @@
       font-family: "Archivo Narrow", sans-serif;
       letter-spacing: 2px;
       color: #599001; }
-    .hammock-returns .hammock-email a:hover {
-      cursor: pointer;
-      color: white; }
 
 .image-returns {
   text-align: center;
@@ -330,9 +324,8 @@
     background-color: #599001;
     color: white; }
   .home-banner-text a:hover {
-    border: 4px solid white;
-    background-color: white;
-    color: #599001; }
+    border: 4px solid #76ad1d;
+    background-color: #76ad1d; }
 
 .home-gallery-wrapper {
   padding-top: 100px;
@@ -595,9 +588,6 @@ footer {
       font-family: "Archivo Narrow", sans-serif;
       letter-spacing: 2px;
       color: #599001; }
-    .refund-wrapper .outpost-email a:hover {
-      cursor: pointer;
-      color: #1c1c1c; }
 
 .videos-wrapper {
   margin-top: 80px;
@@ -661,12 +651,12 @@ footer {
 
 .story-content {
   margin-top: 70px;
-  text-align: center;
   font-family: "Lato", sans-serif;
   letter-spacing: 1.2px;
   font-size: 12px;
   line-height: 3;
-  color: #868686; }
+  color: #868686;
+  text-align: center; }
   .story-content h1 {
     font-family: "Teko", sans-serif;
     margin-bottom: 30px;
