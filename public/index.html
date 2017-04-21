@@ -35,6 +35,21 @@
 
 
   <!-- scripts -->
+  <!-- firebase -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase-app.js"></script> -->
+  <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
+  <script>
+     // Initialize Firebase
+     var config = {
+       apiKey: "AIzaSyD0tf6W3x8A8FzE4N6Y9aXutcydpc_SQrE",
+       authDomain: "make-tracks-outdoors.firebaseapp.com",
+       databaseURL: "https://make-tracks-outdoors.firebaseio.com",
+       projectId: "make-tracks-outdoors",
+       storageBucket: "make-tracks-outdoors.appspot.com",
+       messagingSenderId: "358018699324"
+     };
+     firebase.initializeApp(config);
+   </script>
   <!-- constant contacts -->
   <script type='text/javascript'>
    var localizedErrMap = {};
