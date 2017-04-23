@@ -139,18 +139,18 @@
 
 .in-bag-wrapper {
   padding-top: 10px;
-  color: #868686;
+  padding-left: 30px;
   font-size: 12px;
   font-family: "Lato", sans-serif; }
   .in-bag-wrapper h4 {
     font-size: 15px;
-    color: white; }
+    color: #cccccc; }
   .in-bag-wrapper h5 {
     font-size: 13px;
-    color: #599001; }
+    color: #76ad1d; }
   .in-bag-wrapper p {
-    font-family: "Archivo Narrow", sans-serif;
-    padding-left: 10px; }
+    padding-left: 10px;
+    color: white; }
 
 .totals h4 {
   float: left;
@@ -158,13 +158,10 @@
 
 .hammock-icon-wrapper {
   font-family: "Lato", sans-serif; }
-  .hammock-icon-wrapper h4 {
-    font-size: 15px;
-    color: white; }
   .hammock-icon-wrapper .feature-wrapper {
     clear: both; }
     .hammock-icon-wrapper .feature-wrapper img {
-      width: 14%;
+      width: 132%;
       float: left; }
     .hammock-icon-wrapper .feature-wrapper p {
       color: white;
@@ -211,6 +208,12 @@
   text-align: center;
   margin-top: 15px; }
   .image-returns img {
+    width: 100%; }
+
+.image-specs {
+  text-align: center;
+  margin-top: 50px; }
+  .image-specs img {
     width: 100%; }
 
 .amazon-launch {

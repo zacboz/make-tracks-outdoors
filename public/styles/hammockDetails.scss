@@ -16,6 +16,8 @@ $lighten: rgba(64,210,110,0.7);
 $action-hover: rgb(64, 210, 110);
 $action: rgb(60, 190, 90);
 $black: rgb(28, 28, 28);
+$hoverkelly: rgb(118, 173, 29);
+
 
 .hammock-details-wrapper{
   margin-top: 60px;
@@ -126,21 +128,21 @@ $black: rgb(28, 28, 28);
 
 .in-bag-wrapper{
   padding-top: 10px;
-  // color: $grey;
-  color: #868686;
+  padding-left: 30px;
   font-size: 12px;
   font-family: $lato;
   h4{
     font-size: 15px;
-    color: white;
+    color: #cccccc;
   }
   h5{
     font-size: 13px;
-    color: $kelly;
+    color: $hoverkelly;
   }
   p{
-    font-family: $archivo;
+    // font-family: $archivo;
     padding-left: 10px;
+    color: white;
   }
 }
 .totals{
@@ -153,15 +155,11 @@ $black: rgb(28, 28, 28);
 .hammock-icon-wrapper{
   // padding-top: 20px;
   font-family: $lato;
-  h4{
-    font-size: 15px;
-    color: white;
-  }
   .feature-wrapper{
     // width: 95%;
     clear: both;
     img{
-      width: 14%;
+      width: 132%;
       float: left;
     }
     p{
@@ -223,6 +221,14 @@ $black: rgb(28, 28, 28);
 .image-returns{
   text-align: center;
   margin-top: 15px;
+  img{
+    width: 100%;
+  }
+}
+
+.image-specs{
+  text-align: center;
+  margin-top: 50px;
   img{
     width: 100%;
   }
