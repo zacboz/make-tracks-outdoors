@@ -287,7 +287,7 @@
         background-color: black;
         color: white; }
       .hammock-gallery-wrapper .hammock-gallery .hammock-card:hover .hammock-price {
-        color: #599001; }
+        color: #76ad1d; }
 
 .home-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/banners/tothetop.jpg");
@@ -374,7 +374,7 @@
         background-color: #1c1c1c;
         color: white; }
       .home-gallery-wrapper .feature-gallery .feature-card:hover .feature-price {
-        color: #599001; }
+        color: #76ad1d; }
 
 .navbar-default {
   background-color: #191919;
@@ -399,7 +399,8 @@
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   color: white;
   border-bottom: 2px solid #599001;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+  margin-bottom: 11px; }
 
 .nav > li > a {
   margin-left: 15px;
@@ -653,13 +654,13 @@ footer {
   margin-top: 70px;
   font-family: "Lato", sans-serif;
   letter-spacing: 1.2px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 3;
   color: #868686;
   text-align: center; }
   .story-content h1 {
     font-family: "Teko", sans-serif;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     letter-spacing: 3px;
     color: #1c1c1c; }
   .story-content p {

@@ -13,6 +13,8 @@ $teko: 'Teko', sans-serif;
 $cRoboto: 'Roboto Condensed', sans-serif;
 $archivo: 'Archivo Narrow', sans-serif;
 $lighten: rgba(255,255,255,0.5);
+$hoverkelly: rgb(118, 173, 29);
+
 
 .hammocks-banner{
   margin-top: 60px;
@@ -92,7 +94,7 @@ $lighten: rgba(255,255,255,0.5);
         color: white;
       }
       .hammock-price{
-        color: $kelly;
+        color: $hoverkelly;
       }
     }
   }
