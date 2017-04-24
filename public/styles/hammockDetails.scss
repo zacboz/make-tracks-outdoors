@@ -128,21 +128,24 @@ $hoverkelly: rgb(118, 173, 29);
 
 .in-bag-wrapper{
   padding-top: 10px;
-  padding-left: 30px;
+  padding-left: 20px;
   font-size: 12px;
   font-family: $lato;
   h4{
     font-size: 15px;
-    color: #cccccc;
+    // color: #cccccc;
+    color: white;
   }
   h5{
     font-size: 13px;
     color: $hoverkelly;
+    // color: white;
   }
   p{
     // font-family: $archivo;
     padding-left: 10px;
-    color: white;
+    // color: white;
+    color: #cccccc;
   }
 }
 .totals{
@@ -159,15 +162,9 @@ $hoverkelly: rgb(118, 173, 29);
     // width: 95%;
     clear: both;
     img{
-      width: 132%;
+      width: 110%;
       float: left;
-    }
-    p{
-      color: white;
-      font-size: 12px;
-      float: left;
-      padding-left: 20px;
-      padding-top: 28px;
+      margin-top: 12px;
     }
   }
 }
@@ -228,7 +225,8 @@ $hoverkelly: rgb(118, 173, 29);
 
 .image-specs{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 35px;
+  // margin-right: 12px;
   img{
     width: 100%;
   }

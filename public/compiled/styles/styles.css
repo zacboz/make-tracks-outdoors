@@ -139,18 +139,18 @@
 
 .in-bag-wrapper {
   padding-top: 10px;
-  padding-left: 30px;
+  padding-left: 20px;
   font-size: 12px;
   font-family: "Lato", sans-serif; }
   .in-bag-wrapper h4 {
     font-size: 15px;
-    color: #cccccc; }
+    color: white; }
   .in-bag-wrapper h5 {
     font-size: 13px;
     color: #76ad1d; }
   .in-bag-wrapper p {
     padding-left: 10px;
-    color: white; }
+    color: #cccccc; }
 
 .totals h4 {
   float: left;
@@ -161,14 +161,9 @@
   .hammock-icon-wrapper .feature-wrapper {
     clear: both; }
     .hammock-icon-wrapper .feature-wrapper img {
-      width: 132%;
-      float: left; }
-    .hammock-icon-wrapper .feature-wrapper p {
-      color: white;
-      font-size: 12px;
+      width: 110%;
       float: left;
-      padding-left: 20px;
-      padding-top: 28px; }
+      margin-top: 12px; }
 
 .setup-content {
   margin-top: 100px;
@@ -212,7 +207,7 @@
 
 .image-specs {
   text-align: center;
-  margin-top: 50px; }
+  margin-top: 35px; }
   .image-specs img {
     width: 100%; }
 
