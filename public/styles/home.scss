@@ -41,7 +41,7 @@ $hoverkelly: rgb(118, 173, 29);
     font-size: 100px;
     color: white;
     letter-spacing: 4px;
-    margin-bottom: 100px;
+    margin-bottom: 20vh;
   }
   a{
     cursor: pointer;
@@ -124,4 +124,41 @@ $hoverkelly: rgb(118, 173, 29);
       }
     }
   }
+}
+
+@media (max-width: 1025px){
+  .home-banner-text{
+    padding-top: 32vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+
+@media (max-width: 769px){
+  .home-banner-text{
+    h1{
+      font-size: 72px;
+      margin-bottom: 18vh;
+    }
+    a{
+      font-size: 12px;
+
+    }
+  }
+  .home-gallery-wrapper{
+    .feature-gallery{
+      .feature-card{
+        max-width: none;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 30px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: 426px){
+
+  
 }
