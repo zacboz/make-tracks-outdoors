@@ -81,7 +81,6 @@ $black: rgb(28, 28, 28);
   .story-wrapper{
     padding-bottom: 20px;
   }
-
   .story-banner{
     height: 40vh;
     background-size: 100%;
@@ -91,8 +90,11 @@ $black: rgb(28, 28, 28);
     h1{
       font-size: 25px;
     }
-    p{
-      margin: 0 0 25px;
-    }
+  }
+}
+
+@media (min-width: 1439px){
+  .story-banner{
+    background-size: 100%;
   }
 }
