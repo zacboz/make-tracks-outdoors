@@ -783,3 +783,16 @@ footer {
   .the-team span {
     font-weight: 600;
     color: #1c1c1c; }
+
+@media (max-width: 426px) {
+  .story-wrapper {
+    padding-bottom: 20px; }
+  .story-banner {
+    height: 40vh;
+    background-size: 100%; }
+  .story-content {
+    font-size: 10px; }
+    .story-content h1 {
+      font-size: 25px; }
+    .story-content p {
+      margin: 0 0 25px; } }

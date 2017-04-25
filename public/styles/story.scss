@@ -76,3 +76,23 @@ $black: rgb(28, 28, 28);
     color: $black;
   }
 }
+
+@media (max-width: 426px){
+  .story-wrapper{
+    padding-bottom: 20px;
+  }
+
+  .story-banner{
+    height: 40vh;
+    background-size: 100%;
+  }
+  .story-content{
+    font-size: 10px;
+    h1{
+      font-size: 25px;
+    }
+    p{
+      margin: 0 0 25px;
+    }
+  }
+}
