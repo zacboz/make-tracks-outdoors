@@ -764,6 +764,30 @@ footer {
     font-weight: 900;
     color: #599001; }
 
+@media (max-width: 426px) {
+  .outpost-banner p {
+    padding-top: 15vh;
+    font-size: 30px; }
+  .outpost-banner h1 {
+    padding-top: 2vh;
+    font-size: 55px; }
+  .nested-nav {
+    font-size: 11px; }
+    .nested-nav .nested-links {
+      padding: 0 13%; }
+    .nested-nav a {
+      padding-top: 11px; }
+  .qa-wrapper {
+    letter-spacing: 1px;
+    font-size: 11px;
+    line-height: 2;
+    margin-bottom: 10px; }
+  .answer {
+    line-height: 1.5;
+    font-size: 10px; }
+  .refund-wrapper {
+    font-size: 11px; } }
+
 .story-wrapper {
   padding-bottom: 50px; }
 

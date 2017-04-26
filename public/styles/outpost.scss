@@ -171,3 +171,41 @@ $black: rgb(28, 28, 28);
   font-size: 14px;
   font-weight: 600;
 }
+
+@media (max-width: 426px){
+  .outpost-banner{
+    p{
+      padding-top: 15vh;
+      font-size: 30px;
+    }
+    h1{
+      padding-top: 2vh;
+      font-size: 55px;
+    }
+  }
+
+  .nested-nav{
+    font-size: 11px;
+    .nested-links{
+      padding: 0 13%;
+    }
+    a{
+      padding-top: 11px;
+    }
+  }
+  .qa-wrapper{
+    letter-spacing: 1px;
+    font-size: 11px;
+    line-height: 2;
+    margin-bottom: 10px;
+  }
+  .answer{
+    line-height: 1.5;
+    font-size: 10px;
+  }
+
+  .refund-wrapper{
+    font-size: 11px;
+  }
+
+}
