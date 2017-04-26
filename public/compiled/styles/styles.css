@@ -11,7 +11,7 @@
   text-align: center;
   text-transform: uppercase; }
   .contact-banner h1 {
-    padding-top: 22vh;
+    padding-top: 23vh;
     font-family: "Teko", sans-serif;
     color: white;
     letter-spacing: 13px;
@@ -54,6 +54,34 @@
     font-family: "Archivo Narrow", sans-serif;
     letter-spacing: 2px;
     color: #599001; }
+
+@media (max-width: 426px) {
+  .contact-banner h1 {
+    font-size: 55px;
+    letter-spacing: 9px; }
+  .contact-content-wrapper {
+    letter-spacing: 1.5px; }
+    .contact-content-wrapper h2 {
+      font-size: 14px;
+      padding: 0 10%; }
+    .contact-content-wrapper p {
+      font-size: 12px;
+      margin-top: 30px;
+      padding: 0 10vw;
+      line-height: 2;
+      color: #868686; }
+    .contact-content-wrapper a {
+      text-decoration: none;
+      color: #599001;
+      font-weight: 600; }
+  .contact-email-icon a {
+    font-size: 30px;
+    color: #1c1c1c; }
+  .contact-email-icon a:hover {
+    cursor: pointer;
+    color: #599001; }
+  .contact-email a {
+    font-size: 14px; } }
 
 .hammock-details-wrapper {
   margin-top: 60px; }
@@ -227,10 +255,10 @@
   height: 60vh;
   text-align: center; }
   .hammocks-banner h1 {
-    padding-top: 22vh;
+    padding-top: 23vh;
     font-family: "Teko", sans-serif;
     color: white;
-    letter-spacing: 11px;
+    letter-spacing: 13px;
     font-size: 90px; }
 
 .hammock-gallery-wrapper {
@@ -303,7 +331,8 @@
 
 @media (max-width: 426px) {
   .hammocks-banner h1 {
-    font-size: 50px; }
+    font-size: 55px;
+    letter-spacing: 9px; }
   .hammock-gallery-wrapper {
     padding-bottom: 20px; }
     .hammock-gallery-wrapper .featured {

@@ -33,7 +33,7 @@ $black: rgb(28, 28, 28);
   text-align: center;
   text-transform: uppercase;
   h1{
-    padding-top: 22vh;
+    padding-top: 23vh;
     font-family: $teko;
     color: white;
     letter-spacing: 13px;
@@ -86,4 +86,49 @@ $black: rgb(28, 28, 28);
     letter-spacing: 2px;
     color: $kelly;
   }
+}
+
+@media (max-width: 426px){
+  .contact-banner{
+    h1{
+      font-size: 55px;
+      letter-spacing: 9px;
+    }
+  }
+  .contact-content-wrapper{
+    letter-spacing: 1.5px;
+    h2{
+      font-size: 14px;
+      padding: 0 10%;
+    }
+    p{
+      font-size: 12px;
+      margin-top: 30px;
+      padding: 0 10vw;
+      line-height: 2;
+      color: #868686;
+    }
+    a{
+      text-decoration: none;
+      color: $kelly;
+      font-weight: 600;
+    }
+  }
+  .contact-email-icon{
+    a{
+      font-size: 30px;
+      color: $black;
+    }
+    a:hover{
+        cursor: pointer;
+        color: $kelly;
+    }
+  }
+
+  .contact-email{
+    a{
+      font-size: 14px;
+    }
+  }
+
 }
