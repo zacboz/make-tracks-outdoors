@@ -343,11 +343,6 @@ $hoverkelly: rgb(118, 173, 29);
       }
     }
     .extra-links{
-      a{
-        cursor: pointer;
-        color: $black;
-        text-decoration: none;
-      }
       i{
         font-size: 13px;
       }
@@ -361,7 +356,7 @@ $hoverkelly: rgb(118, 173, 29);
       }
     }
     .price {
-      margin: 7% 0;
+      margin: 8% 0;
       font-size: 20px;
     }
     .buy-btn {
@@ -431,7 +426,128 @@ $hoverkelly: rgb(118, 173, 29);
     }
   }
 
+}
 
+@media (max-width: 426px){
+  .specs-wrapper {
+    height: 455px;
+  }
+
+  .product-details-wrapper{
+    text-align: center;
+
+  }
+  .product-picture{
+    img{
+      width: 90%;
+      height: auto;
+    }
+  }
+
+  .hammock-details{
+    font-size: 12px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    .hammock-heading{
+      position: relative;
+      top: 15%;
+      h2{
+        margin-bottom: -10px;
+      }
+      h3{
+        margin-top: 0;
+        font-size: 20px;
+      }
+    }
+    .hammock-status-desc{
+      margin-top: 13%;
+      margin-bottom: 6%;
+      .status{
+        color: $black;
+        font-weight: 600;
+      }
+      .desc {
+        margin: 5% 10%;
+        line-height: 2;
+        font-size: 10px;
+      }
+    }
+    .extra-links{
+      display: flex;
+      justify-content: space-between;
+      padding: 0 7%;
+      i{
+        font-size: 13px;
+        margin: 5px;
+      }
+      .fa-binoculars{
+        font-size: 10px;
+      }
+      span{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 12px;
+      }
+    }
+    .price {
+      margin: 12% 0;
+      font-size: 20px;
+    }
+    .buy-btn {
+      margin-bottom: 5%;
+      display: flex;
+      justify-content: space-around;
+      div{
+        width: 70%;
+        padding: 15px 0px;
+        text-align: center;
+        font-size: 14px;
+      }
+    }
+  }
+  .in-bag-wrapper{
+    padding-top: 6px;
+    font-size: 9px;
+    h4{
+      font-size: 11px;
+    }
+    h5{
+      font-size: 10px;
+    }
+    p{
+      padding-left: 10px;
+    }
+  }
+
+  .hammock-icon-wrapper{
+    width: 20%;
+    padding-top: 7px;
+    .feature-wrapper{
+      clear: both;
+      img{
+        margin-top: 13px;
+      }
+    }
+  }
+  .image-returns{
+    display: none;
+  }
+
+
+  @media (max-width: 321px){
+    .product-nested-views{
+      a{
+        font-size: 9px;
+        padding: 19px 21px;
+      }
+    }
+    .hammock-icon-wrapper{
+      display: none;
+    }
+
+  }
 
 
 }
