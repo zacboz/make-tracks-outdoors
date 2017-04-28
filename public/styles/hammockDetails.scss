@@ -319,8 +319,7 @@ $hoverkelly: rgb(118, 173, 29);
     flex-direction: column;
     justify-content: space-around;
     .hammock-heading{
-      position: relative;
-      top: 15%;
+      margin-top: 30px;
       h2{
         margin-bottom: -10px;
       }
@@ -451,15 +450,6 @@ $hoverkelly: rgb(118, 173, 29);
     flex-direction: column;
     justify-content: space-around;
     .hammock-heading{
-      position: relative;
-      top: 15%;
-      h2{
-        margin-bottom: -10px;
-      }
-      h3{
-        margin-top: 0;
-        font-size: 20px;
-      }
     }
     .hammock-status-desc{
       margin-top: 13%;
@@ -523,7 +513,7 @@ $hoverkelly: rgb(118, 173, 29);
 
   .hammock-icon-wrapper{
     width: 20%;
-    padding-top: 7px;
+    padding-top: 5px;
     .feature-wrapper{
       clear: both;
       img{

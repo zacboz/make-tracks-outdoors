@@ -265,7 +265,7 @@
     .hammock-details .extra-links span {
       margin-left: 5px;
       margin-right: 20px;
-      font-size: 12px; }
+      font-size: 11px; }
   .in-bag-wrapper {
     padding-top: 0px;
     font-size: 10px; }
@@ -295,8 +295,7 @@
     flex-direction: column;
     justify-content: space-around; }
     .hammock-details .hammock-heading {
-      position: relative;
-      top: 15%; }
+      margin-top: 30px; }
       .hammock-details .hammock-heading h2 {
         margin-bottom: -10px; }
       .hammock-details .hammock-heading h3 {
@@ -378,14 +377,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around; }
-    .hammock-details .hammock-heading {
-      position: relative;
-      top: 15%; }
-      .hammock-details .hammock-heading h2 {
-        margin-bottom: -10px; }
-      .hammock-details .hammock-heading h3 {
-        margin-top: 0;
-        font-size: 20px; }
     .hammock-details .hammock-status-desc {
       margin-top: 13%;
       margin-bottom: 6%; }
@@ -432,7 +423,7 @@
       padding-left: 10px; }
   .hammock-icon-wrapper {
     width: 20%;
-    padding-top: 7px; }
+    padding-top: 5px; }
     .hammock-icon-wrapper .feature-wrapper {
       clear: both; }
       .hammock-icon-wrapper .feature-wrapper img {
@@ -564,7 +555,7 @@
     font-size: 100px;
     color: white;
     letter-spacing: 4px;
-    margin-bottom: 18vh; }
+    margin-bottom: 17vh; }
   .home-banner-text a {
     cursor: pointer;
     color: #599001;
@@ -690,8 +681,8 @@
   margin-bottom: 0; }
 
 .navbar-brand img {
-  width: 220px;
-  margin-top: -10px; }
+  width: 210px;
+  margin-top: -8px; }
 
 .navbar-default .navbar-nav > li > a {
   color: white;
