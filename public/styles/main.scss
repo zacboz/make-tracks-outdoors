@@ -35,8 +35,8 @@ $action: rgb(60, 190, 90);
 
 .navbar-brand{
   img{
-    width: 200px;
-    margin-top: -30px;
+    width: 220px;
+    margin-top: -10px;
   }
 }
 
@@ -194,7 +194,7 @@ footer{
   .navbar-brand{
     img{
       width: 160px;
-      margin-top: -20px;
+      margin-top: -2px;
     }
   }
 
@@ -215,7 +215,7 @@ footer{
 @media (max-width: 426px){
   .navbar-brand img {
     width: 160px;
-    margin-top: -24px;
+    margin-top: -6px;
   }
   .navbar-default .navbar-toggle {
     border-color: $blacker;
