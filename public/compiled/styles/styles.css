@@ -212,7 +212,7 @@
   text-align: center;
   margin-top: 80px;
   font-size: 12px;
-  color: #868686; }
+  color: #cccccc; }
   .hammock-returns h4 {
     color: white;
     font-size: 14px;
@@ -365,7 +365,7 @@
 
 @media (max-width: 450px) {
   .specs-wrapper {
-    height: 455px; }
+    height: 485px; }
   .product-details-wrapper {
     text-align: center; }
   .product-picture {
@@ -388,7 +388,7 @@
       .hammock-details .hammock-status-desc .desc {
         margin: 5% 10%;
         line-height: 2;
-        font-size: 10px; }
+        font-size: 12px; }
     .hammock-details .extra-links {
       display: flex;
       justify-content: space-between;
@@ -416,14 +416,15 @@
         font-size: 14px; }
   .in-bag-wrapper {
     padding-top: 6px;
-    font-size: 9px; }
+    font-size: 11px; }
     .in-bag-wrapper h4 {
-      font-size: 11px; }
+      font-size: 12px; }
     .in-bag-wrapper h5 {
-      font-size: 10px; }
+      font-size: 11px; }
     .in-bag-wrapper p {
       padding-left: 10px; }
   .hammock-icon-wrapper {
+    display: none;
     width: 20%;
     padding-top: 5px; }
     .hammock-icon-wrapper .feature-wrapper {
@@ -433,12 +434,10 @@
   .image-returns {
     display: none; } }
 
-@media (max-width: 450px) and (max-width: 321px) {
+@media (max-width: 321px) {
   .product-nested-views a {
     font-size: 9px;
-    padding: 19px 21px; }
-  .hammock-icon-wrapper {
-    display: none; } }
+    padding: 19px 21px; } }
 
 .hammocks-banner {
   margin-top: 60px;
@@ -1004,12 +1003,12 @@ footer {
       padding-top: 11px; }
   .qa-wrapper {
     letter-spacing: 1px;
-    font-size: 11px;
+    font-size: 12px;
     line-height: 2;
     margin-bottom: 10px; }
   .answer {
-    line-height: 1.5;
-    font-size: 10px; }
+    line-height: 1.7;
+    font-size: 11px; }
   .refund-wrapper {
     font-size: 11px; } }
 
@@ -1070,7 +1069,7 @@ footer {
     height: 40vh;
     background-size: 100%; }
   .story-content {
-    font-size: 10px; }
+    font-size: 12px; }
     .story-content h1 {
       font-size: 25px; } }
 

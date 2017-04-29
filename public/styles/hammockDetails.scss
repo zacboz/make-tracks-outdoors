@@ -193,7 +193,7 @@ $hoverkelly: rgb(118, 173, 29);
   text-align: center;
   margin-top: 80px;
   font-size: 12px;
-  color: #868686;
+  color: #cccccc;
   h4{
     color: white;
     font-size: 14px;
@@ -429,7 +429,7 @@ $hoverkelly: rgb(118, 173, 29);
 
 @media (max-width: 450px){
   .specs-wrapper {
-    height: 455px;
+    height: 485px;
   }
 
   .product-details-wrapper{
@@ -462,7 +462,7 @@ $hoverkelly: rgb(118, 173, 29);
       .desc {
         margin: 5% 10%;
         line-height: 2;
-        font-size: 10px;
+        font-size: 12px;
       }
     }
     .extra-links{
@@ -500,12 +500,12 @@ $hoverkelly: rgb(118, 173, 29);
   }
   .in-bag-wrapper{
     padding-top: 6px;
-    font-size: 9px;
+    font-size: 11px;
     h4{
-      font-size: 11px;
+      font-size: 12px;
     }
     h5{
-      font-size: 10px;
+      font-size: 11px;
     }
     p{
       padding-left: 10px;
@@ -513,6 +513,7 @@ $hoverkelly: rgb(118, 173, 29);
   }
 
   .hammock-icon-wrapper{
+    display: none;
     width: 20%;
     padding-top: 5px;
     .feature-wrapper{
@@ -526,19 +527,14 @@ $hoverkelly: rgb(118, 173, 29);
     display: none;
   }
 
+}
 
-  @media (max-width: 321px){
-    .product-nested-views{
-      a{
-        font-size: 9px;
-        padding: 19px 21px;
-      }
+@media (max-width: 321px){
+  .product-nested-views{
+    a{
+      font-size: 9px;
+      padding: 19px 21px;
     }
-    .hammock-icon-wrapper{
-      display: none;
-    }
-
   }
-
 
 }
