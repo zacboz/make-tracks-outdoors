@@ -16,22 +16,19 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><a ui-sref='story'>Story</a></li>
-        <li><a ui-sref='hammocks'>Hammocks</a></li>
+        <li><a ui-sref='story' data-toggle="collapse" data-target=".navbar-collapse.in">Story</a></li>
+        <li><a ui-sref='hammocks' data-toggle="collapse" data-target=".navbar-collapse.in">Hammocks</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Outpost <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a ui-sref="outpost.faq">FAQ</a></li>
-            <li><a ui-sref="outpost.videos">How to Videos</a></li>
-            <li><a ui-sref="outpost.refunds">Refunds</a></li>
-            <!-- <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li> -->
+            <li><a ui-sref="outpost.faq" data-toggle="collapse" data-target=".navbar-collapse.in">FAQ</a></li>
+            <li><a ui-sref="outpost.videos" data-toggle="collapse" data-target=".navbar-collapse.in">How to Videos</a></li>
+            <li><a ui-sref="outpost.refunds" data-toggle="collapse" data-target=".navbar-collapse.in">Refunds</a></li>
           </ul>
         </li>
         <!-- <li><a href="https://visitor.r20.constantcontact.com/d.jsp?llr=nqcmcd9ab&amp;p=oi&amp;m=1127532071437&amp;sit=4lkxbgmlb&amp;f=b92a315a-2b10-4317-965c-853eb0f99f09" target="_blank">the Trackers</a></li> -->
         <li><a data-toggle='modal' data-target='#trackerModal'>Be a Tracker</a></li>
-
-        <li><a ui-sref='contact'>Contact Us</a></li>
+        <li><a ui-sref='contact' data-toggle="collapse" data-target=".navbar-collapse.in">Contact Us</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
