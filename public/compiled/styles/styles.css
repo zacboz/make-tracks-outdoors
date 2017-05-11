@@ -156,7 +156,7 @@
   height: 500px;
   background-color: #1c1c1c;
   margin-top: 60px;
-  margin-bottom: 50px; }
+  margin-bottom: 100px; }
 
 .product-nested-views {
   height: 50px;
@@ -365,7 +365,8 @@
 
 @media (max-width: 450px) {
   .specs-wrapper {
-    height: 485px; }
+    height: 485px;
+    margin-bottom: 30px; }
   .product-details-wrapper {
     text-align: center; }
   .product-picture {

@@ -1,25 +1,16 @@
 $roboto: 'Roboto', sans-serif;
 $lato: 'Lato', sans-serif;
-$oswald: 'Oswald', sans-serif;
-$cabin: 'Cabin', sans-serif;
-$quicksand: 'Quicksand', sans-serif;
-$play: 'Play', sans-serif;
 $kelly: rgb(89, 144, 1);
-$forest: rgb(55, 77, 40);
 $grey: rgb(204, 204, 204);
-$cream: rgb(240, 238, 226);
-$taupe: rgb(239, 238, 226);
 $teko: 'Teko', sans-serif;
 $cRoboto: 'Roboto Condensed', sans-serif;
 $archivo: 'Archivo Narrow', sans-serif;
 $lighten: rgba(255,255,255,0.5);
 $hoverkelly: rgb(118, 173, 29);
 
-
 .hammocks-banner{
   margin-top: 60px;
   background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('/img/banners/hammockview.jpg');
-  // background-image: url('/img/hammockview.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -33,7 +24,6 @@ $hoverkelly: rgb(118, 173, 29);
     font-size: 90px;
   }
 }
-
 
 .hammock-gallery-wrapper{
   padding-top: 60px;
@@ -99,7 +89,7 @@ $hoverkelly: rgb(118, 173, 29);
     }
   }
 }
-
+//tablet styles
 @media (max-width: 769px){
   .hammocks-banner{
     h1{
@@ -121,9 +111,8 @@ $hoverkelly: rgb(118, 173, 29);
       }
     }
   }
-
-}
-
+}//end  of 769
+//mobiles styles
 @media (max-width: 426px){
   .hammocks-banner{
     h1{
@@ -149,4 +138,4 @@ $hoverkelly: rgb(118, 173, 29);
       }
     }
   }
-}
+}//end of 426

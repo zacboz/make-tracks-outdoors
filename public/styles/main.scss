@@ -1,15 +1,7 @@
 $roboto: 'Roboto', sans-serif;
 $lato: 'Lato', sans-serif;
-$oswald: 'Oswald', sans-serif;
-$cabin: 'Cabin', sans-serif;
-$quicksand: 'Quicksand', sans-serif;
-$play: 'Play', sans-serif;
 $kelly: rgb(89, 144, 1);
-$forest: rgb(55, 77, 40);
 $grey: rgb(204, 204, 204);
-$cream: rgb(240, 238, 226);
-$taupe: rgb(239, 238, 226);
-$olive: rgb(109, 131, 31);
 $teko: 'Teko', sans-serif;
 $cRoboto: 'Roboto Condensed', sans-serif;
 $archivo: 'Archivo Narrow', sans-serif;
@@ -18,9 +10,6 @@ $blacker: rgb(25, 25, 25);
 $black: rgb(28, 28, 28);
 $action-hover: rgb(64, 210, 110);
 $action: rgb(60, 190, 90);
-
-
-
 
 .navbar-default{
   background-color: $blacker;
@@ -46,7 +35,6 @@ $action: rgb(60, 190, 90);
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 1.7px;
-  // padding-top:20px;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -92,7 +80,6 @@ $action: rgb(60, 190, 90);
 }
 
 footer{
-  // background-color: $kelly;
   padding-top: 70px;
   padding-bottom: 40px;
 }
@@ -125,7 +112,6 @@ footer{
   font-size: 10px;
   font-family: $lato;
   font-weight: 600;
-  // text-align: center;
   display: flex;
   justify-content: space-around;
   align-content: center;
@@ -189,7 +175,7 @@ footer{
   padding-bottom: 35px;
   font-weight: 600;
 }
-
+//tablet styles
 @media (max-width: 769px){
   .navbar-brand{
     img{
@@ -210,8 +196,8 @@ footer{
   .copyright{
     text-align: center;
   }
-}
-
+}//end of 769
+//mobile styles
 @media (max-width: 426px){
   .navbar-brand img {
     width: 160px;
@@ -222,7 +208,6 @@ footer{
   }
   .navbar-toggle {
     margin-top: 11px;
-    // margin-bottom: 8px;
     background-color: $blacker;
     color: white;
   }
@@ -233,8 +218,6 @@ footer{
     background-color: white;
   }
   .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-    // margin-right: -15px;
-    // margin-left: -15px;
     margin-top: 3px;
   }
   .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
@@ -272,5 +255,4 @@ footer{
   .ctct-custom-form{
     min-width: 299px;
   }
-
-}
+}//end of 426

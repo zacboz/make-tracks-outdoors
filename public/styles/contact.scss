@@ -1,14 +1,7 @@
 $roboto: 'Roboto', sans-serif;
 $lato: 'Lato', sans-serif;
-$oswald: 'Oswald', sans-serif;
-$cabin: 'Cabin', sans-serif;
-$quicksand: 'Quicksand', sans-serif;
-$play: 'Play', sans-serif;
 $kelly: rgb(89, 144, 1);
-$forest: rgb(55, 77, 40);
 $grey: rgb(204, 204, 204);
-$cream: rgb(240, 238, 226);
-$taupe: rgb(239, 238, 226);
 $teko: 'Teko', sans-serif;
 $cRoboto: 'Roboto Condensed', sans-serif;
 $archivo: 'Archivo Narrow', sans-serif;
@@ -22,10 +15,6 @@ $black: rgb(28, 28, 28);
 .contact-banner{
   margin-top: 60px;
   background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('/img/banners/girlinyosimite.jpg');
-  // background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('/img/scenic-view.jpg');
-  // background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('/img/tothetop.jpg');
-  // background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('/img/allabouttheview.jpg');
-
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -87,7 +76,7 @@ $black: rgb(28, 28, 28);
     color: $kelly;
   }
 }
-
+//mobile styles
 @media (max-width: 426px){
   .contact-banner{
     h1{
@@ -130,5 +119,4 @@ $black: rgb(28, 28, 28);
       font-size: 14px;
     }
   }
-
-}
+}//end of 426

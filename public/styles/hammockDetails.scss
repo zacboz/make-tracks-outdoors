@@ -1,14 +1,7 @@
 $roboto: 'Roboto', sans-serif;
 $lato: 'Lato', sans-serif;
-$oswald: 'Oswald', sans-serif;
-$cabin: 'Cabin', sans-serif;
-$quicksand: 'Quicksand', sans-serif;
-$play: 'Play', sans-serif;
 $kelly: rgb(89, 144, 1);
-$forest: rgb(55, 77, 40);
 $grey: rgb(204, 204, 204);
-$cream: rgb(240, 238, 226);
-$taupe: rgb(239, 238, 226);
 $teko: 'Teko', sans-serif;
 $cRoboto: 'Roboto Condensed', sans-serif;
 $archivo: 'Archivo Narrow', sans-serif;
@@ -18,13 +11,11 @@ $action: rgb(60, 190, 90);
 $black: rgb(28, 28, 28);
 $hoverkelly: rgb(118, 173, 29);
 
-
 .hammock-details-wrapper{
   margin-top: 60px;
 }
 
 .product-picture{
-  // margin: 40px 0px;
   img{
     width: 90%;
     height: 88vh;
@@ -40,7 +31,6 @@ $hoverkelly: rgb(118, 173, 29);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  // position: relative;
   .hammock-heading{
     position: relative;
     top: 10%;
@@ -116,7 +106,7 @@ $hoverkelly: rgb(118, 173, 29);
   height: 500px;
   background-color: $black;
   margin-top: 60px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .product-nested-views{
@@ -136,7 +126,7 @@ $hoverkelly: rgb(118, 173, 29);
     border-bottom: 1px solid black;
   }
 }
-
+//hammock.specs styles
 .in-bag-wrapper{
   padding-top: 10px;
   padding-left: 20px;
@@ -144,18 +134,14 @@ $hoverkelly: rgb(118, 173, 29);
   font-family: $lato;
   h4{
     font-size: 15px;
-    // color: #cccccc;
     color: white;
   }
   h5{
     font-size: 13px;
     color: $hoverkelly;
-    // color: white;
   }
   p{
-    // font-family: $archivo;
     padding-left: 10px;
-    // color: white;
     color: #cccccc;
   }
 }
@@ -167,10 +153,8 @@ $hoverkelly: rgb(118, 173, 29);
 }
 
 .hammock-icon-wrapper{
-  // padding-top: 20px;
   font-family: $lato;
   .feature-wrapper{
-    // width: 95%;
     clear: both;
     img{
       width: 110%;
@@ -179,15 +163,14 @@ $hoverkelly: rgb(118, 173, 29);
     }
   }
 }
-
+//hammock.setup styles
 .setup-content{
   margin-top: 100px;
   text-align: center;
   font-family: $lato;
   color: white;
 }
-
-
+//hammock.returns styles
 .hammock-returns{
   font-family: $lato;
   text-align: center;
@@ -237,7 +220,6 @@ $hoverkelly: rgb(118, 173, 29);
 .image-specs{
   text-align: center;
   margin-top: 35px;
-  // margin-right: 12px;
   img{
     width: 100%;
   }
@@ -250,7 +232,7 @@ $hoverkelly: rgb(118, 173, 29);
   letter-spacing: 10;
   text-align: center;
 }
-
+//tablet styles
 @media (max-width: 1025px){
   .hammock-details{
     font-size: 14px;
@@ -293,8 +275,7 @@ $hoverkelly: rgb(118, 173, 29);
   .image-returns{
     margin-top: 50px;
   }
-
-}
+}//end 1025
 
 @media (max-width: 769px){
   .specs-wrapper {
@@ -303,7 +284,6 @@ $hoverkelly: rgb(118, 173, 29);
 
   .product-details-wrapper{
     text-align: center;
-
   }
   .product-picture{
     img{
@@ -424,12 +404,13 @@ $hoverkelly: rgb(118, 173, 29);
       padding: 19px 22px;
     }
   }
+}//end of 769
 
-}
-
+//mobile styles
 @media (max-width: 450px){
   .specs-wrapper {
     height: 485px;
+    margin-bottom: 30px;
   }
 
   .product-details-wrapper{
@@ -526,8 +507,7 @@ $hoverkelly: rgb(118, 173, 29);
   .image-returns{
     display: none;
   }
-
-}
+}//end of 425
 
 @media (max-width: 321px){
   .product-nested-views{
@@ -536,5 +516,4 @@ $hoverkelly: rgb(118, 173, 29);
       padding: 19px 21px;
     }
   }
-
-}
+}//end of 321

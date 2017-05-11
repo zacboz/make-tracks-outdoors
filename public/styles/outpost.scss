@@ -1,14 +1,7 @@
 $roboto: 'Roboto', sans-serif;
 $lato: 'Lato', sans-serif;
-$oswald: 'Oswald', sans-serif;
-$cabin: 'Cabin', sans-serif;
-$quicksand: 'Quicksand', sans-serif;
-$play: 'Play', sans-serif;
 $kelly: rgb(89, 144, 1);
-$forest: rgb(55, 77, 40);
 $grey: rgb(204, 204, 204);
-$cream: rgb(240, 238, 226);
-$taupe: rgb(239, 238, 226);
 $teko: 'Teko', sans-serif;
 $cRoboto: 'Roboto Condensed', sans-serif;
 $archivo: 'Archivo Narrow', sans-serif;
@@ -22,7 +15,6 @@ $black: rgb(28, 28, 28);
 .outpost-banner{
   margin-top: 60px;
   background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('/img/banners/angelslanding.jpg');
-  // background-image: url('/img/hammockview.jpg');
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -42,7 +34,6 @@ $black: rgb(28, 28, 28);
     color: white;
     letter-spacing: 13px;
     font-size: 100px;
-    // font-weight: 600;
   }
 }
 
@@ -67,7 +58,7 @@ $black: rgb(28, 28, 28);
     padding-bottom: 2px;
   }
 }
-
+//outpost.refund styles
 .refund-wrapper{
   margin-top: 80px;
   padding-right: 15vw;
@@ -112,11 +103,7 @@ $black: rgb(28, 28, 28);
     }
   }
 }
-
-
-
-
-
+//outpost.videos styles
 .videos-wrapper{
   margin-top: 80px;
   padding-right: 15vw;
@@ -135,7 +122,7 @@ $black: rgb(28, 28, 28);
     color: $black;
   }
 }
-
+//outpost.faq styles
 .faq-wrapper{
   margin-top: 80px;
   padding-right: 10vw;
@@ -171,7 +158,7 @@ $black: rgb(28, 28, 28);
   font-size: 14px;
   font-weight: 600;
 }
-
+//mobiles styles
 @media (max-width: 426px){
   .outpost-banner{
     p{
@@ -207,5 +194,4 @@ $black: rgb(28, 28, 28);
   .refund-wrapper{
     font-size: 11px;
   }
-
-}
+}//end of 426

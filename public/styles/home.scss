@@ -1,14 +1,7 @@
 $roboto: 'Roboto', sans-serif;
 $lato: 'Lato', sans-serif;
-$oswald: 'Oswald', sans-serif;
-$cabin: 'Cabin', sans-serif;
-$quicksand: 'Quicksand', sans-serif;
-$play: 'Play', sans-serif;
 $kelly: rgb(89, 144, 1);
-$forest: rgb(55, 77, 40);
 $grey: rgb(204, 204, 204);
-$cream: rgb(240, 238, 226);
-$taupe: rgb(239, 238, 226);
 $teko: 'Teko', sans-serif;
 $cRoboto: 'Roboto Condensed', sans-serif;
 $archivo: 'Archivo Narrow', sans-serif;
@@ -17,13 +10,8 @@ $black: rgb(28, 28, 28);
 $sky: rgb(22, 111, 166);
 $hoverkelly: rgb(118, 173, 29);
 
-
-
 .home-banner {
   background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('/img/banners/tothetop.jpg');
-  // background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('/img/scenic-view.jpg');
-  // background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('/img/allabouttheview.jpg');
-
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -112,7 +100,6 @@ $hoverkelly: rgb(118, 173, 29);
     }
     .feature-card:hover{
       box-shadow: 4px 4px 6px rgba(0,0,0,0.1);
-      // box-shadow: 0px 1px 6px rgba(0,0,0,0.15);
       .feature-name{
         border: 1px solid $black;
         background-color: $black;
@@ -124,13 +111,13 @@ $hoverkelly: rgb(118, 173, 29);
     }
   }
 }
-
+//tablet styles
 @media (max-width: 1025px){
   .home-banner-text{
     padding-top: 32vh;
     margin: 0 10%;
   }
-}
+}//end of 1025
 
 @media (max-width: 769px){
   .home-banner-text{
@@ -140,7 +127,6 @@ $hoverkelly: rgb(118, 173, 29);
     }
     a{
       font-size: 12px;
-
     }
   }
   .home-gallery-wrapper{
@@ -154,9 +140,9 @@ $hoverkelly: rgb(118, 173, 29);
       }
     }
   }
+}//end of 769
 
-}
-
+//mobile styles
 @media (max-width: 426px){
   .home-banner-text{
     padding-top: 25vh;
@@ -185,8 +171,7 @@ $hoverkelly: rgb(118, 173, 29);
       }
     }
   }
-
-}
+}//end of 426
 
 @media (max-width: 321px){
   .home-banner-text{
@@ -200,4 +185,4 @@ $hoverkelly: rgb(118, 173, 29);
 
     }
   }
-}
+}//end of 321
