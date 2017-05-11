@@ -61,7 +61,6 @@ angular.module('makeTracks', ['ui.router'])
           controller: 'contactCtrl'
       });
 
-
     $urlRouterProvider
         .otherwise('/');
 })

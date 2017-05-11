@@ -1,4 +1,4 @@
-angular.module('makeTracks').controller('outpostCtrl', ($scope, outpostSrvc, $stateParams) => {
+angular.module('makeTracks').controller('outpostCtrl', ($scope, $stateParams) => {
 
   $("html, body").animate({ scrollTop: 0 }, 200);
 

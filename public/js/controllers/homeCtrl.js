@@ -6,5 +6,4 @@ angular.module('makeTracks')
 
   $("html, body").animate({ scrollTop: 0 }, 200);
 
-
 })//end of home controller
