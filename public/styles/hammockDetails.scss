@@ -16,10 +16,31 @@ $hoverkelly: rgb(118, 173, 29);
 }
 
 .product-picture{
-  img{
-    width: 90%;
-    height: 88vh;
+  .item{
+    img{
+      width: 90%;
+      height: 85vh;
+    }
   }
+}
+
+.carousel-control {
+  background: none !important;
+  filter: none !important;
+  progid: none !important;
+}
+
+.glyphicon-chevron-left{
+  color: $grey;
+  text-shadow: none;
+}
+
+.glyphicon-chevron-right{
+  color: $grey;
+  text-shadow: none;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev{
+  font-size: 20px;
 }
 
 .hammock-details{
@@ -286,9 +307,14 @@ $hoverkelly: rgb(118, 173, 29);
     text-align: center;
   }
   .product-picture{
-    img{
-      width: auto;
-      height: 75vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .item{
+      img{
+        width: auto;
+        height: 70vh;
+      }
     }
   }
 
@@ -419,9 +445,11 @@ $hoverkelly: rgb(118, 173, 29);
   }
   .product-picture{
     margin-top: 30px;
-    img{
-      width: 90%;
-      height: auto;
+    .item{
+      img{
+        width: 100%;
+        height: auto;
+      }
     }
   }
 

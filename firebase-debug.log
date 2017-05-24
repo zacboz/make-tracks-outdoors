@@ -3,32 +3,24 @@
 [debug] CLI Version:  3.6.1
 [debug] Platform:     darwin
 [debug] Node Version: v6.9.1
-[debug] Time:         Wed May 24 2017 13:52:53 GMT-0600 (MDT)
+[debug] Time:         Wed May 24 2017 14:50:44 GMT-0600 (MDT)
 [debug] ----------------------------------------------------------------------
 [debug] 
 [debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/EyPyHOV2CVFW1heGpUWKaJSdahkhHJxxkgpw1V_SVa8',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Wed May 24 2017 13:52:53 GMT-0600 (MDT)
-[debug] <<< HTTP RESPONSE 200
 [debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/make-tracks-outdoors  
- Wed May 24 2017 13:52:54 GMT-0600 (MDT)
+ Wed May 24 2017 14:50:44 GMT-0600 (MDT)
 [debug] <<< HTTP RESPONSE 200
 [debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/make-tracks-outdoors/tokens  
- Wed May 24 2017 13:52:55 GMT-0600 (MDT)
+ Wed May 24 2017 14:50:45 GMT-0600 (MDT)
 [debug] <<< HTTP RESPONSE 200
 [info] Starting Firebase development server...
 [info] 
 [info] Project Directory: /Users/ZacBoz/Coding/Projects/make-tracks-outdoors
 [debug] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/make-tracks-outdoors  
- Wed May 24 2017 13:52:56 GMT-0600 (MDT)
+ Wed May 24 2017 14:50:45 GMT-0600 (MDT)
 [debug] <<< HTTP RESPONSE 200
 [debug] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/358018699324/clients/_:getWebAppConfig  
- Wed May 24 2017 13:52:56 GMT-0600 (MDT)
+ Wed May 24 2017 14:50:46 GMT-0600 (MDT)
 [debug] <<< HTTP RESPONSE 200
 [info] Public Directory: public
 [info] 

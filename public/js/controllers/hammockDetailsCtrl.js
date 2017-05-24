@@ -20,6 +20,9 @@ angular.module('makeTracks')
       }, 1000);
   });
 
+  $('#product-carousel').carousel();
+
+
   $("html, body").animate({ scrollTop: 0 }, 200);
 
 })

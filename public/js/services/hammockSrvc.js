@@ -38,8 +38,8 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         name: 'The Sunrise',
         color: 'orange/gray',
         image: "./img/hammocks/product/sunrisehammock.jpg",
-        image1: "./img/hammocks/product/summithammockandbag.jpg",
-        image2: "",
+        image1: "./img/hammocks/product/sunrisehammockandbag.jpg",
+        image2: "./img/hammocks/product/sunrisebag.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
         price: 34.99
@@ -49,7 +49,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         color: 'blue/light blue',
         image: "./img/hammocks/product/wavehammock.jpg",
         image1: "./img/hammocks/product/wavehammockandbag.jpg",
-        image2: "",
+        image2: "./img/hammocks/product/wavebag.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
         price: 34.99
@@ -59,17 +59,17 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         color: 'green/gray',
         image: "./img/hammocks/product/woodlandhammock.jpg",
         image1: "./img/hammocks/product/woodlandhammockandbag.jpg",
-        image2: "",
+        image2: "./img/hammocks/product/woodlandbag.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
         price: 34.99
     },{
         id: 4,
         name: 'The Summit',
-        color: 'charcoal/maroon',
+        color: 'charcoal/red',
         image: "./img/hammocks/product/summithammock.jpg",
         image1: "./img/hammocks/product/summithammockandbag.jpg",
-        image2: "",
+        image2: "./img/hammocks/product/summitbag.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
         price: 34.99
@@ -79,7 +79,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         color: 'lime green/ light blue/ white',
         image: "./img/hammocks/product/oasishammock.jpg",
         image1: "./img/hammocks/product/oasishammockandbag.jpg",
-        image2: "",
+        image2: "./img/hammocks/product/oasisbag.jpg",
         status: 'Coming May 2017',
         desc: 'The best hammock out there! Great for 1, perfect for 2. Easily transportable and stuffs right into the attached sack. Set up in seconds because our ropes all come with pretied knots!',
         price: 34.99
