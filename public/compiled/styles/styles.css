@@ -3,9 +3,9 @@
 
 .contact-banner {
   margin-top: 60px;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/img/banners/girlinyosimite.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/gallery/sunrise/sunriseAFCanyon1.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
   width: 100%;
   height: 60vh;
   text-align: center;
@@ -442,7 +442,7 @@
 
 .hammocks-banner {
   margin-top: 60px;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/img/banners/hammockview.jpg");
+  background: linear-gradient(transparent, transparent), url("/img/gallery/woodland/woodlandAFCanyon.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -499,8 +499,12 @@
     .hammock-gallery-wrapper .hammock-gallery .hammock-card:hover {
       box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
       border: 1px solid #cccccc; }
+      .hammock-gallery-wrapper .hammock-gallery .hammock-card:hover .hammock-name {
+        font-size: 16px;
+        font-weight: 600; }
       .hammock-gallery-wrapper .hammock-gallery .hammock-card:hover .hammock-price {
-        color: #76ad1d; }
+        color: #76ad1d;
+        font-size: 13px; }
 
 @media (max-width: 769px) {
   .hammocks-banner h1 {
@@ -534,9 +538,9 @@
         height: auto; } }
 
 .home-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/banners/tothetop.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/gallery/summit/summitAFCanyon.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   width: 100%;
   height: 100vh; }
 
@@ -607,10 +611,14 @@
           font-weight: 500;
           margin-top: 10px; }
     .home-gallery-wrapper .feature-gallery .feature-card:hover {
-      box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 1px 9px rgba(0, 0, 0, 0.15);
       border: 1px solid #cccccc; }
+      .home-gallery-wrapper .feature-gallery .feature-card:hover .feature-name {
+        font-size: 16px;
+        font-weight: 600; }
       .home-gallery-wrapper .feature-gallery .feature-card:hover .feature-price {
-        color: #76ad1d; }
+        color: #76ad1d;
+        font-size: 13px; }
 
 @media (max-width: 1025px) {
   .home-banner-text {

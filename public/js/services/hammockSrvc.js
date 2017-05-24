@@ -75,7 +75,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         price: 34.99
     },{
         id: 5,
-        name: 'The Oasis',
+        name: 'The Breeze',
         color: 'lime green/ light blue/ white',
         image: "./img/hammocks/product/oasishammock.jpg",
         image1: "./img/hammocks/product/oasishammockandbag.jpg",

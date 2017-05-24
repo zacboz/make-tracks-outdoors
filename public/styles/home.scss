@@ -11,9 +11,13 @@ $sky: rgb(22, 111, 166);
 $hoverkelly: rgb(118, 173, 29);
 
 .home-banner {
-  background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('/img/banners/tothetop.jpg');
+  // background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('/img/banners/tothetop.jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('/img/gallery/summit/summitAFCanyon.jpg');
+  // background: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) ), url('/img/gallery/woodland/woodlandAFCanyon.jpg');
+  // background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('/img/gallery/sunrise/sunriseAFCanyonCouple.jpg');
+  // background: linear-gradient( rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15) ), url('/img/gallery/breeze/breezeAFCanyon.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   width: 100%;
   height: 100vh;
 }
@@ -95,13 +99,16 @@ $hoverkelly: rgb(118, 173, 29);
       }
     }
     .feature-card:hover{
-      box-shadow: 4px 4px 6px rgba(0,0,0,0.1);
+      // box-shadow: 4px 4px 6px rgba(0,0,0,0.1);
+      box-shadow: 0 1px 9px rgba(0,0,0,0.15);
       border: 1px solid $grey;
       .feature-name{
-
+        font-size: 16px;
+        font-weight: 600;
       }
       .feature-price{
         color: $hoverkelly;
+        font-size: 13px;
       }
     }
   }
