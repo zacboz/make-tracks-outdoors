@@ -57,7 +57,7 @@ $hoverkelly: rgb(118, 173, 29);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-top: 40px;
+  margin-top: 30px;
   .hammock-heading{
     position: relative;
     top: 10%;
@@ -275,6 +275,7 @@ $hoverkelly: rgb(118, 173, 29);
   .hammock-details{
     font-size: 14px;
     height: 62vh;
+    margin-top: 5px;
     .extra-links{
       i{
         font-size: 13px;
@@ -573,6 +574,9 @@ $hoverkelly: rgb(118, 173, 29);
 }//end of 321
 
 @media (min-width: 1439px){
+  .product-details-wrapper{
+    margin-bottom: 70px;
+  }
 
   .product-picture{
     margin-top: 30px;
