@@ -81,7 +81,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
         color: 'charcoal/red',
         image: "./img/hammocks/product/summithammock.jpg",
         image1: "./img/hammocks/product/summithammockandbag.jpg",
-        image2: "./img/hammocks/product/summitbag.jpg",
+        image2: "./img/hammocks/product/Bag.jpg",
         image3: "./img/hammocks/product/treeropeandsleeve.jpg",
         image4: "./img/gallery/treeSetUpSq.jpg",
         image5: "./img/gallery/summit/summitAFCanyon2.jpg",
@@ -118,7 +118,7 @@ angular.module('makeTracks').service('hammockSrvc', function(){
     this.getHammockDetails = (stateParams) => {
       let hammockDetails = this.hammocks;
       for(var i = 0; i < hammockDetails.length; i++){
-        console.log(hammockDetails, stateParams);
+        // console.log(hammockDetails, stateParams);
         if(hammockDetails[i].id === parseInt(stateParams.id)){
           return hammockDetails[i]
         }
