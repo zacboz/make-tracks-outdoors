@@ -86,9 +86,12 @@
 .hammock-details-wrapper {
   margin-top: 60px; }
 
+.product-details-wrapper {
+  margin-bottom: 30px; }
+
 .product-picture .item img {
   padding-left: 10%;
-  margin-top: 10vh;
+  margin-top: 40px;
   width: 90%;
   height: auto; }
 
@@ -113,10 +116,11 @@
   letter-spacing: 1.2px;
   font-size: 14px;
   color: #868686;
-  height: 78vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin-top: 40px; }
   .hammock-details .hammock-heading {
     position: relative;
     top: 10%; }
@@ -152,7 +156,7 @@
     margin-left: 5px;
     margin-right: 20px; }
   .hammock-details .price {
-    margin: 10% 0;
+    margin: 14% 0;
     font-size: 22px;
     color: #1c1c1c;
     font-weight: 600; }
@@ -274,13 +278,13 @@
 
 @media (max-width: 1025px) {
   .product-picture .item img {
-    padding-left: 0%;
+    padding-left: 10%;
     margin-top: 50px;
-    width: 100%;
-    height: 70.5vh; }
+    width: 90%;
+    height: auto; }
   .hammock-details {
     font-size: 14px;
-    height: 78vh; }
+    height: 62vh; }
     .hammock-details .extra-links i {
       font-size: 13px; }
     .hammock-details .extra-links .fa-binoculars {
@@ -313,6 +317,8 @@
     justify-content: space-around;
     align-items: center; }
     .product-picture .item img {
+      padding-left: 0;
+      margin-top: 30;
       width: auto;
       height: 70vh; }
   .hammock-details {
@@ -320,7 +326,8 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around; }
+    justify-content: space-around;
+    margin-top: 0; }
     .hammock-details .hammock-heading {
       margin-top: 30px; }
       .hammock-details .hammock-heading h2 {
@@ -407,7 +414,8 @@
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-around; }
+    justify-content: space-around;
+    margin-top: 0; }
     .hammock-details .hammock-status-desc {
       margin-top: 13%;
       margin-bottom: 6%; }
@@ -432,7 +440,7 @@
         margin-right: 0px;
         font-size: 12px; }
     .hammock-details .price {
-      margin: 12% 0;
+      margin: 8% 0;
       font-size: 20px; }
     .hammock-details .buy-btn {
       margin-bottom: 5%;
@@ -469,6 +477,17 @@
   .product-nested-views a {
     font-size: 9px;
     padding: 19px 16px; } }
+
+@media (min-width: 1439px) {
+  .product-picture {
+    margin-top: 30px; }
+    .product-picture .item img {
+      padding-left: 10%;
+      margin-top: 5vh;
+      width: 90%;
+      height: auto; }
+  .hammock-details {
+    height: 66vh; } }
 
 .hammocks-banner {
   margin-top: 60px;
