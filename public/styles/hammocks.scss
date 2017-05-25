@@ -78,7 +78,8 @@ $hoverkelly: rgb(118, 173, 29);
       }
     }
     .hammock-card:hover{
-      box-shadow: 4px 4px 6px rgba(0,0,0,0.1);
+      // box-shadow: 4px 4px 6px rgba(0,0,0,0.1);
+      box-shadow: 0 1px 9px rgba(0,0,0,0.15);
       border: 1px solid $grey;
       .hammock-name{
         font-size: 16px;

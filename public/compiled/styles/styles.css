@@ -3,9 +3,9 @@
 
 .contact-banner {
   margin-top: 60px;
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/gallery/sunrise/sunriseAFCanyon1.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/gallery/sunrise/sunriseAFCanyonCouple.jpg");
   background-size: cover;
-  background-position: top;
+  background-position: center;
   width: 100%;
   height: 60vh;
   text-align: center;
@@ -87,8 +87,10 @@
   margin-top: 60px; }
 
 .product-picture .item img {
+  padding-left: 10%;
+  margin-top: 10vh;
   width: 90%;
-  height: 85vh; }
+  height: auto; }
 
 .carousel-control {
   background: none !important;
@@ -271,6 +273,11 @@
   text-align: center; }
 
 @media (max-width: 1025px) {
+  .product-picture .item img {
+    padding-left: 0%;
+    margin-top: 50px;
+    width: 100%;
+    height: 70.5vh; }
   .hammock-details {
     font-size: 14px;
     height: 78vh; }
@@ -392,6 +399,7 @@
   .product-picture {
     margin-top: 30px; }
     .product-picture .item img {
+      margin-top: 0;
       width: 100%;
       height: auto; }
   .hammock-details {
@@ -456,9 +464,11 @@
     display: none; } }
 
 @media (max-width: 321px) {
+  .specs-wrapper {
+    height: 500px; }
   .product-nested-views a {
     font-size: 9px;
-    padding: 19px 21px; } }
+    padding: 19px 16px; } }
 
 .hammocks-banner {
   margin-top: 60px;
@@ -517,7 +527,7 @@
           font-weight: 500;
           margin-top: 10px; }
     .hammock-gallery-wrapper .hammock-gallery .hammock-card:hover {
-      box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 1px 9px rgba(0, 0, 0, 0.15);
       border: 1px solid #cccccc; }
       .hammock-gallery-wrapper .hammock-gallery .hammock-card:hover .hammock-name {
         font-size: 16px;
@@ -558,7 +568,7 @@
         height: auto; } }
 
 .home-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/gallery/summit/summitAFCanyon.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/gallery/summit/summitAFCanyon.jpg");
   background-size: cover;
   background-position: bottom;
   width: 100%;
