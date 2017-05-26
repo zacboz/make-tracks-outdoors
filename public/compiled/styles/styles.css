@@ -3,7 +3,7 @@
 
 .contact-banner {
   margin-top: 60px;
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/gallery/sunrise/sunriseAFCanyonCouple.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/gallery/woodland/woodlandUtahValley.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -914,7 +914,7 @@ footer {
 
 .outpost-banner {
   margin-top: 60px;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/img/banners/angelslanding.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/gallery/sunrise/sunriseAFCanyonCouple.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
