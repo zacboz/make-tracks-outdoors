@@ -3,7 +3,7 @@
 
 .contact-banner {
   margin-top: 60px;
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/gallery/woodland/woodlandUtahValley.jpg");
+  background: linear-gradient(transparent, transparent), url("/img/gallery/woodland/woodlandUtahValley.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -590,7 +590,7 @@
         height: auto; } }
 
 .home-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/gallery/summit/summitAFCanyon.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/gallery/summit/summitAFCanyon.jpg");
   background-size: cover;
   background-position: bottom;
   width: 100%;
