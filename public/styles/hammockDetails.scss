@@ -65,6 +65,7 @@ $hoverkelly: rgb(118, 173, 29);
       font-family: $lato;
       font-weight: 600;
       color: $black;
+      letter-spacing: 1.5px;
       text-transform: uppercase;
       margin-bottom: -10px;
     }
@@ -121,6 +122,7 @@ $hoverkelly: rgb(118, 173, 29);
       color: white;
       font-weight: 600;
       font-size: 16px;
+      transition: background .3 ease;
     }
     div:hover{
       background-color: $action-hover;

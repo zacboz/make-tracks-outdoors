@@ -128,6 +128,7 @@
       font-family: "Lato", sans-serif;
       font-weight: 600;
       color: #1c1c1c;
+      letter-spacing: 1.5px;
       text-transform: uppercase;
       margin-bottom: -10px; }
     .hammock-details .hammock-heading h3 {
@@ -169,7 +170,8 @@
       background-color: #3cbe5a;
       color: white;
       font-weight: 600;
-      font-size: 16px; }
+      font-size: 16px;
+      transition: background .3 ease; }
     .hammock-details .buy-btn div:hover {
       background-color: #40d26e;
       color: white; }
@@ -494,7 +496,7 @@
 
 .hammocks-banner {
   margin-top: 60px;
-  background: linear-gradient(transparent, transparent), url("/img/gallery/woodland/woodlandAFCanyon.jpg");
+  background: linear-gradient(transparent, transparent), url("/img/gallery/sunrise/sunriseAFCanyonCouple.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -591,13 +593,14 @@
 
 .home-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/gallery/summit/summitAFCanyon.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/gallery/wave/IMG_1928.jpg");
   background-size: cover;
   background-position: bottom;
   width: 100%;
   height: 100vh; }
 
 .home-banner-text {
-  padding-top: 30vh;
+  padding-top: 20vh;
   margin: 0 15%;
   text-align: center;
   text-transform: uppercase;
@@ -609,7 +612,6 @@
     margin-bottom: 17vh; }
   .home-banner-text a {
     cursor: pointer;
-    color: #599001;
     font-family: "Lato", sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -618,12 +620,10 @@
     border: 4px solid white;
     padding: 10px 20px;
     border-radius: 25px;
-    background-color: white;
-    border: 4px solid #599001;
-    background-color: #599001;
-    color: white; }
+    background-color: transparent;
+    color: white;
+    transition: background .2s ease; }
   .home-banner-text a:hover {
-    border: 4px solid #76ad1d;
     background-color: #76ad1d; }
 
 .home-gallery-wrapper {
@@ -914,7 +914,7 @@ footer {
 
 .outpost-banner {
   margin-top: 60px;
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("/img/gallery/sunrise/sunriseAFCanyonCouple.jpg");
+  background: linear-gradient(transparent, transparent), url("/img/gallery/breeze/breezeJuly17.JPG");
   background-size: cover;
   background-position: center;
   width: 100%;
