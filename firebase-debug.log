@@ -1,0 +1,22 @@
+[debug] ----------------------------------------------------------------------
+[debug] Command:      /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] CLI Version:  3.6.1
+[debug] Platform:     darwin
+[debug] Node Version: v6.9.1
+[debug] Time:         Sun Sep 17 2017 20:25:54 GMT-0600 (MDT)
+[debug] ----------------------------------------------------------------------
+[debug] 
+[debug] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/make-tracks-outdoors  
+ Sun Sep 17 2017 20:25:54 GMT-0600 (MDT)
+[debug] <<< HTTP RESPONSE 200
+[debug] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/make-tracks-outdoors/tokens  
+ Sun Sep 17 2017 20:25:54 GMT-0600 (MDT)
+[debug] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'make-tracks-outdoors'...
+[info] 
+[info] i  deploying hosting
+[info] i  hosting: preparing public directory for upload...
+[debug] >>> HTTP REQUEST PUT https://deploy.firebase.com/v1/hosting/make-tracks-outdoors/uploads/-KuHnauxWz4Y5ReR8Gc4?fileCount=122&message=  
+ Sun Sep 17 2017 20:26:07 GMT-0600 (MDT)
